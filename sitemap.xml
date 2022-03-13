@@ -2,39 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://supertsumu.github.io/ctfs/</loc>
+    <loc>supertsumu.com/ctfs/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.github.io/tags/forensics-cryptography/</loc>
+    <loc>supertsumu.com/tags/forensics-cryptography/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.github.io/</loc>
+    <loc>supertsumu.com/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.github.io/tags/</loc>
+    <loc>supertsumu.com/tags/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.github.io/ctfs/vu_cyberthon_2022/qrcode/</loc>
+    <loc>supertsumu.com/ctfs/vu_cyberthon_2022/qrcode/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.github.io/about/</loc>
+    <loc>supertsumu.com/about/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.github.io/ctfs/cybergrabs0x03/challs/</loc>
+    <loc>supertsumu.com/ctfs/cybergrabs0x03/challs/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.github.io/tags/forensics/</loc>
+    <loc>supertsumu.com/tags/forensics/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.github.io/ctfs/cybergrabs0x03/mrrobot/</loc>
+    <loc>supertsumu.com/ctfs/cybergrabs0x03/mrrobot/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.github.io/writeups/</loc>
+    <loc>supertsumu.com/writeups/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.github.io/ctfs/vu_cyberthon_2022/challs/</loc>
+    <loc>supertsumu.com/ctfs/vu_cyberthon_2022/challs/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.github.io/categories/</loc>
+    <loc>supertsumu.com/categories/</loc>
   </url>
 </urlset>

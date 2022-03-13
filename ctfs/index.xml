@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ctfs on SuperTsumu</title>
-    <link>https://supertsumu.github.io/ctfs/</link>
+    <link>supertsumu.com/ctfs/</link>
     <description>Recent content in Ctfs on SuperTsumu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 19 Feb 2022 00:35:39 +0800</lastBuildDate><atom:link href="https://supertsumu.github.io/ctfs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Feb 2022 00:35:39 +0800</lastBuildDate><atom:link href="supertsumu.com/ctfs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VU_Cyberthon/When_universes_collide</title>
-      <link>https://supertsumu.github.io/ctfs/vu_cyberthon_2022/qrcode/</link>
+      <link>supertsumu.com/ctfs/vu_cyberthon_2022/qrcode/</link>
       <pubDate>Sat, 19 Feb 2022 00:35:39 +0800</pubDate>
       
-      <guid>https://supertsumu.github.io/ctfs/vu_cyberthon_2022/qrcode/</guid>
+      <guid>supertsumu.com/ctfs/vu_cyberthon_2022/qrcode/</guid>
       <description>Home
 When universes collide - 50 points - Forensics, Cryptography We are given this file Challenge 1.png.
 Instinctively we would all scan this qr code. We get this string in return:
@@ -21,20 +21,20 @@ otp!áth:,+totp/No~d%20AccÏ%nt:vuctf2&amp;gt;2Ò@b¥s{paâa$iÚeîcÏm?algïrn|
     
     <item>
       <title>CyberGrabs_0x03</title>
-      <link>https://supertsumu.github.io/ctfs/cybergrabs0x03/challs/</link>
+      <link>supertsumu.com/ctfs/cybergrabs0x03/challs/</link>
       <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
       
-      <guid>https://supertsumu.github.io/ctfs/cybergrabs0x03/challs/</guid>
+      <guid>supertsumu.com/ctfs/cybergrabs0x03/challs/</guid>
       <description>Home
 CyberGrabs 0x03 writeups Mr. Robot - 200 [Forensics]</description>
     </item>
     
     <item>
       <title>Mr._Robot</title>
-      <link>https://supertsumu.github.io/ctfs/cybergrabs0x03/mrrobot/</link>
+      <link>supertsumu.com/ctfs/cybergrabs0x03/mrrobot/</link>
       <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
       
-      <guid>https://supertsumu.github.io/ctfs/cybergrabs0x03/mrrobot/</guid>
+      <guid>supertsumu.com/ctfs/cybergrabs0x03/mrrobot/</guid>
       <description>Home
 Mr. Robot - 200 points - Forensics Description:
 Mr. Robot most famous TV show but least people know about it.
@@ -48,10 +48,10 @@ I googled &amp;ldquo;mr robot wav files&amp;rdquo; which pointed me to this site
     
     <item>
       <title>VU_Cyberthon_2022</title>
-      <link>https://supertsumu.github.io/ctfs/vu_cyberthon_2022/challs/</link>
+      <link>supertsumu.com/ctfs/vu_cyberthon_2022/challs/</link>
       <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
       
-      <guid>https://supertsumu.github.io/ctfs/vu_cyberthon_2022/challs/</guid>
+      <guid>supertsumu.com/ctfs/vu_cyberthon_2022/challs/</guid>
       <description>VU Cyberthon is an international ctf based in Lithuania made by the guys in the Faculty of Informatics of Vytautas Magnus University. I alongside my teammates at Team Excelsior scored 28th place out of the 400+ teams that played against us. It was an interesting experience despite it being very challenging. Thanks to VU Cyberthon for the great time.
 Home
 VU Cyberthon 2022 writeups When universes collide [Forensics]</description>
