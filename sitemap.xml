@@ -2,39 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://supertsumu.com/ctfs/</loc>
+    <loc>https://supertsumu.github.io/ctfs/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.com/tags/forensics-cryptography/</loc>
+    <loc>https://supertsumu.github.io/tags/forensics-cryptography/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.com/</loc>
+    <loc>https://supertsumu.github.io/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.com/tags/</loc>
+    <loc>https://supertsumu.github.io/tags/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.com/ctfs/vu_cyberthon_2022/qrcode/</loc>
+    <loc>https://supertsumu.github.io/ctfs/vu_cyberthon_2022/qrcode/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.com/about/</loc>
+    <loc>https://supertsumu.github.io/about/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.com/ctfs/cybergrabs0x03/challs/</loc>
+    <loc>https://supertsumu.github.io/ctfs/cybergrabs0x03/challs/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.com/tags/forensics/</loc>
+    <loc>https://supertsumu.github.io/tags/forensics/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.com/ctfs/cybergrabs0x03/mrrobot/</loc>
+    <loc>https://supertsumu.github.io/ctfs/cybergrabs0x03/mrrobot/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.com/writeups/</loc>
+    <loc>https://supertsumu.github.io/writeups/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.com/ctfs/vu_cyberthon_2022/challs/</loc>
+    <loc>https://supertsumu.github.io/ctfs/vu_cyberthon_2022/challs/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.com/categories/</loc>
+    <loc>https://supertsumu.github.io/categories/</loc>
   </url>
 </urlset>
