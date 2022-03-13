@@ -2,39 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>supertsumu.com/ctfs/</loc>
+    <loc>/ctfs/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>supertsumu.com/tags/forensics-cryptography/</loc>
+    <loc>/tags/forensics-cryptography/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>supertsumu.com/</loc>
+    <loc>/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>supertsumu.com/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>supertsumu.com/ctfs/vu_cyberthon_2022/qrcode/</loc>
+    <loc>/ctfs/vu_cyberthon_2022/qrcode/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>supertsumu.com/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>supertsumu.com/ctfs/cybergrabs0x03/challs/</loc>
+    <loc>/ctfs/cybergrabs0x03/challs/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>supertsumu.com/tags/forensics/</loc>
+    <loc>/tags/forensics/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>supertsumu.com/ctfs/cybergrabs0x03/mrrobot/</loc>
+    <loc>/ctfs/cybergrabs0x03/mrrobot/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>supertsumu.com/writeups/</loc>
+    <loc>/writeups/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>supertsumu.com/ctfs/vu_cyberthon_2022/challs/</loc>
+    <loc>/ctfs/vu_cyberthon_2022/challs/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
-    <loc>supertsumu.com/categories/</loc>
+    <loc>/categories/</loc>
   </url>
 </urlset>

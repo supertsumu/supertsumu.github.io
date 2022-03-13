@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Forensics on SuperTsumu</title>
-    <link>supertsumu.com/tags/forensics/</link>
+    <link>/tags/forensics/</link>
     <description>Recent content in Forensics on SuperTsumu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 09 Feb 2022 00:35:39 +0800</lastBuildDate><atom:link href="supertsumu.com/tags/forensics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Feb 2022 00:35:39 +0800</lastBuildDate><atom:link href="/tags/forensics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mr._Robot</title>
-      <link>supertsumu.com/ctfs/cybergrabs0x03/mrrobot/</link>
+      <link>/ctfs/cybergrabs0x03/mrrobot/</link>
       <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
       
-      <guid>supertsumu.com/ctfs/cybergrabs0x03/mrrobot/</guid>
+      <guid>/ctfs/cybergrabs0x03/mrrobot/</guid>
       <description>Home
 Mr. Robot - 200 points - Forensics Description:
 Mr. Robot most famous TV show but least people know about it.
