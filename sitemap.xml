@@ -8,10 +8,16 @@
     <loc>/tags/forensics-cryptography/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
+    <loc>/tags/osint-cryptography/</loc>
+    <lastmod>2022-02-19T00:35:39+08:00</lastmod>
+  </url><url>
     <loc>/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
+    <lastmod>2022-02-19T00:35:39+08:00</lastmod>
+  </url><url>
+    <loc>/ctfs/vishwactf_2022/the_library/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
     <loc>/ctfs/vu_cyberthon_2022/qrcode/</loc>
@@ -30,6 +36,9 @@
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
     <loc>/writeups/</loc>
+    <lastmod>2022-02-09T00:35:39+08:00</lastmod>
+  </url><url>
+    <loc>/ctfs/vishwactf_2022/challs/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
     <loc>/ctfs/vu_cyberthon_2022/challs/</loc>

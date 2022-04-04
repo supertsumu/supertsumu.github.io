@@ -8,6 +8,19 @@
     <language>en-gb</language>
     <lastBuildDate>Sat, 19 Feb 2022 00:35:39 +0800</lastBuildDate><atom:link href="/ctfs/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>VishwaCTF/The_Library</title>
+      <link>/ctfs/vishwactf_2022/the_library/</link>
+      <pubDate>Sat, 19 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/vishwactf_2022/the_library/</guid>
+      <description>Home
+The Library - 449 points - OSINT, Cryptography Description:
+Send a &amp;lsquo;hello&amp;rsquo; to &amp;ldquo;The Librarian&amp;rdquo; from the bot list on the Discord server, and he shall guide you further.
+The Library is a 5 level OSINT challenge with hints of ancient/classical cryptography. We are pointed to the discord bot in the Vishwa CTF discord server named &amp;ldquo;The Librarian&amp;rdquo;:
+ Level 1 After sending a &amp;ldquo;hello&amp;rdquo; to the librarian, we get:</description>
+    </item>
+    
+    <item>
       <title>VU_Cyberthon/When_universes_collide</title>
       <link>/ctfs/vu_cyberthon_2022/qrcode/</link>
       <pubDate>Sat, 19 Feb 2022 00:35:39 +0800</pubDate>
@@ -44,6 +57,17 @@ This forensics challenge comes with the file chall.wav.
 Listening to the file and reading the title, this seems to be a monologue from the American tv show Mr Robot.
 Solution:
 I googled &amp;ldquo;mr robot wav files&amp;rdquo; which pointed me to this site which writes about a tool called DeepSound that was used in the tv series.</description>
+    </item>
+    
+    <item>
+      <title>Vishwa CTF 2022</title>
+      <link>/ctfs/vishwactf_2022/challs/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/vishwactf_2022/challs/</guid>
+      <description>Vishwa CTF 2022 is an international ctf based in India. I alongside my teammates at Team Excelsior scored 103rd out of the 748 teams that played. I really enjoyed the challenging OSINT and Forensics challenges that makes the player scavenge the edges of the web for flags.
+Home
+Vishwa CTF 2022 writeups The Library [OSINT]</description>
     </item>
     
     <item>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OSINT, Cryptography on SuperTsumu</title>
+    <link>/tags/osint-cryptography/</link>
+    <description>Recent content in OSINT, Cryptography on SuperTsumu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 19 Feb 2022 00:35:39 +0800</lastBuildDate><atom:link href="/tags/osint-cryptography/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VishwaCTF/The_Library</title>
+      <link>/ctfs/vishwactf_2022/the_library/</link>
+      <pubDate>Sat, 19 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/vishwactf_2022/the_library/</guid>
+      <description>Home
+The Library - 449 points - OSINT, Cryptography Description:
+Send a &amp;lsquo;hello&amp;rsquo; to &amp;ldquo;The Librarian&amp;rdquo; from the bot list on the Discord server, and he shall guide you further.
+The Library is a 5 level OSINT challenge with hints of ancient/classical cryptography. We are pointed to the discord bot in the Vishwa CTF discord server named &amp;ldquo;The Librarian&amp;rdquo;:
+ Level 1 After sending a &amp;ldquo;hello&amp;rdquo; to the librarian, we get:</description>
+    </item>
+    
+  </channel>
+</rss>
