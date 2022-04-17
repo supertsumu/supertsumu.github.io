@@ -60,6 +60,31 @@ I googled &amp;ldquo;mr robot wav files&amp;rdquo; which pointed me to this site
     </item>
     
     <item>
+      <title>picoCTF_2022</title>
+      <link>/ctfs/picoctf_2022/challs/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/picoctf_2022/challs/</guid>
+      <description>Home
+CyberGrabs 0x03 writeups picoCTF 2022
+picoCTF is an annual high school ctf hosted by the prestigious Carnegie Mellon University. As usual, they came up with challenging and engaging challenges this year that made us utilize our practical skills. What I love about picoCTF&amp;rsquo;s challenges is that they make you use skills that you would use on-the-field which makes it a great place to learn practical skills. I alongside Team Excelsior tried our best for #816/7794 globally.</description>
+    </item>
+    
+    <item>
+      <title>Torrent Analyze</title>
+      <link>/ctfs/picoctf_2022/torrent/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/picoctf_2022/torrent/</guid>
+      <description>Home
+Torrent Analyze - 400 points - Forensics Description:
+SOS, someone is torrenting on our network.
+One of your colleagues has been using torrent to download some files on the company’s network. Can you identify the file(s) that were downloaded? The file name will be the flag, like picoCTF{filename}.
+Hint: The file in question ends with .iso
+We are given a pcap file. Open the file on Wireshark to get started!</description>
+    </item>
+    
+    <item>
       <title>Vishwa CTF 2022</title>
       <link>/ctfs/vishwactf_2022/challs/</link>
       <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>

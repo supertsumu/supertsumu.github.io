@@ -24,5 +24,19 @@ Solution:
 I googled &amp;ldquo;mr robot wav files&amp;rdquo; which pointed me to this site which writes about a tool called DeepSound that was used in the tv series.</description>
     </item>
     
+    <item>
+      <title>Torrent Analyze</title>
+      <link>/ctfs/picoctf_2022/torrent/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/picoctf_2022/torrent/</guid>
+      <description>Home
+Torrent Analyze - 400 points - Forensics Description:
+SOS, someone is torrenting on our network.
+One of your colleagues has been using torrent to download some files on the company’s network. Can you identify the file(s) that were downloaded? The file name will be the flag, like picoCTF{filename}.
+Hint: The file in question ends with .iso
+We are given a pcap file. Open the file on Wireshark to get started!</description>
+    </item>
+    
   </channel>
 </rss>
