@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OSINT on SuperTsumu</title>
+    <link>/tags/osint/</link>
+    <description>Recent content in OSINT on SuperTsumu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 11 Jun 2022 00:35:39 +0800</lastBuildDate><atom:link href="/tags/osint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ICTF_2022/The_Meetup</title>
+      <link>/ctfs/ictf_2022/the_meetup/</link>
+      <pubDate>Sat, 11 Jun 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/ictf_2022/the_meetup/</guid>
+      <description>Home
+The Meetup - 150 points - OSINT In this challenge, we are given the image file named The_Meetup.jpg. You can download this file here.
+The goal of this challenge is to find the exact name of the street name or the building name of the buildings in white.
+I always though people who were able to determine locations from mere images were really smart and I highly respect them. I&amp;rsquo;ve came across my handful of this type of OSINT questions but I&amp;rsquo;ve never been able to solve them until I had seen the amount of attention of detail used to solve these questions from writeups.</description>
+    </item>
+    
+  </channel>
+</rss>

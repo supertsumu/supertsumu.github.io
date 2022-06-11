@@ -16,7 +16,7 @@
       <description>Home
 When universes collide - 50 points - Forensics, Cryptography We are given this file Challenge 1.png.
 Instinctively we would all scan this qr code. We get this string in return:
-otp!áth:,+totp/No~d%20AccÏ%nt:vuctf2&amp;gt;2Ò@b¥s{paâa$iÚeîcÏm?algïrn|hc=SHA1&amp;amp;digiws=6.issuå}=No}d+AcCounz&amp;amp;.e~ißd=30%sek&amp;quot;åt=6ZZKUEJDOVFYC4OIQBU2PLPYBH54VXWB We spent some time thinking what this could mean. But the qr code and its resulting string was actually bait. To actually get the flag we placed the qr code image in stegsolve. After going through a couple of planes we found this:</description>
+otp!áth:,+totp/No~d%20AccÏ%nt:vuctf2&amp;gt;2Ò@b¥s{paâa$iÚeîcÏm?algïrn|hc=SHA1&amp;amp;digiws=6.issuå}=No}d+AcCounz&amp;amp;.e~ißd=30%sek&amp;#34;åt=6ZZKUEJDOVFYC4OIQBU2PLPYBH54VXWB We spent some time thinking what this could mean. But the qr code and its resulting string was actually bait. To actually get the flag we placed the qr code image in stegsolve. After going through a couple of planes we found this:</description>
     </item>
     
   </channel>

@@ -17,7 +17,7 @@
 The Library - 449 points - OSINT, Cryptography Description:
 Send a &amp;lsquo;hello&amp;rsquo; to &amp;ldquo;The Librarian&amp;rdquo; from the bot list on the Discord server, and he shall guide you further.
 The Library is a 5 level OSINT challenge with hints of ancient/classical cryptography. We are pointed to the discord bot in the Vishwa CTF discord server named &amp;ldquo;The Librarian&amp;rdquo;:
- Level 1 After sending a &amp;ldquo;hello&amp;rdquo; to the librarian, we get:</description>
+Level 1 After sending a &amp;ldquo;hello&amp;rdquo; to the librarian, we get:</description>
     </item>
     
   </channel>

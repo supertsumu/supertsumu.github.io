@@ -3,18 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/ctfs/</loc>
-    <lastmod>2022-02-19T00:35:39+08:00</lastmod>
+    <lastmod>2022-06-11T00:35:39+08:00</lastmod>
+  </url><url>
+    <loc>/ctfs/ictf_2022/challs/</loc>
+    <lastmod>2022-06-11T00:35:39+08:00</lastmod>
+  </url><url>
+    <loc>/ctfs/ictf_2022/the_meetup/</loc>
+    <lastmod>2022-06-11T00:35:39+08:00</lastmod>
+  </url><url>
+    <loc>/tags/osint/</loc>
+    <lastmod>2022-06-11T00:35:39+08:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-06-11T00:35:39+08:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-06-11T00:35:39+08:00</lastmod>
   </url><url>
     <loc>/tags/forensics-cryptography/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
     <loc>/tags/osint-cryptography/</loc>
-    <lastmod>2022-02-19T00:35:39+08:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2022-02-19T00:35:39+08:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2022-02-19T00:35:39+08:00</lastmod>
   </url><url>
     <loc>/ctfs/vishwactf_2022/the_library/</loc>

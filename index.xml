@@ -6,7 +6,30 @@
     <description>Recent content on SuperTsumu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 19 Feb 2022 00:35:39 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jun 2022 00:35:39 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ICTF_2022</title>
+      <link>/ctfs/ictf_2022/challs/</link>
+      <pubDate>Sat, 11 Jun 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/ictf_2022/challs/</guid>
+      <description>Home
+ICTF 2022 Writeups June 11th, 2022.
+The 2022 APU Internal CTF was hosted for the students of Asia Pacific University of Technology and Innovation. Being a student there, I had to take on their challenges! This was actually my first on-site ctf; I got to meet a lot of great people and have a pleasant time with them. Here are of the writeups for 2 of the challenges I solved during my time there.</description>
+    </item>
+    
+    <item>
+      <title>ICTF_2022/The_Meetup</title>
+      <link>/ctfs/ictf_2022/the_meetup/</link>
+      <pubDate>Sat, 11 Jun 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/ictf_2022/the_meetup/</guid>
+      <description>Home
+The Meetup - 150 points - OSINT In this challenge, we are given the image file named The_Meetup.jpg. You can download this file here.
+The goal of this challenge is to find the exact name of the street name or the building name of the buildings in white.
+I always though people who were able to determine locations from mere images were really smart and I highly respect them. I&amp;rsquo;ve came across my handful of this type of OSINT questions but I&amp;rsquo;ve never been able to solve them until I had seen the amount of attention of detail used to solve these questions from writeups.</description>
+    </item>
+    
     <item>
       <title>VishwaCTF/The_Library</title>
       <link>/ctfs/vishwactf_2022/the_library/</link>
@@ -17,7 +40,7 @@
 The Library - 449 points - OSINT, Cryptography Description:
 Send a &amp;lsquo;hello&amp;rsquo; to &amp;ldquo;The Librarian&amp;rdquo; from the bot list on the Discord server, and he shall guide you further.
 The Library is a 5 level OSINT challenge with hints of ancient/classical cryptography. We are pointed to the discord bot in the Vishwa CTF discord server named &amp;ldquo;The Librarian&amp;rdquo;:
- Level 1 After sending a &amp;ldquo;hello&amp;rdquo; to the librarian, we get:</description>
+Level 1 After sending a &amp;ldquo;hello&amp;rdquo; to the librarian, we get:</description>
     </item>
     
     <item>
@@ -29,7 +52,7 @@ The Library is a 5 level OSINT challenge with hints of ancient/classical cryptog
       <description>Home
 When universes collide - 50 points - Forensics, Cryptography We are given this file Challenge 1.png.
 Instinctively we would all scan this qr code. We get this string in return:
-otp!áth:,+totp/No~d%20AccÏ%nt:vuctf2&amp;gt;2Ò@b¥s{paâa$iÚeîcÏm?algïrn|hc=SHA1&amp;amp;digiws=6.issuå}=No}d+AcCounz&amp;amp;.e~ißd=30%sek&amp;quot;åt=6ZZKUEJDOVFYC4OIQBU2PLPYBH54VXWB We spent some time thinking what this could mean. But the qr code and its resulting string was actually bait. To actually get the flag we placed the qr code image in stegsolve. After going through a couple of planes we found this:</description>
+otp!áth:,+totp/No~d%20AccÏ%nt:vuctf2&amp;gt;2Ò@b¥s{paâa$iÚeîcÏm?algïrn|hc=SHA1&amp;amp;digiws=6.issuå}=No}d+AcCounz&amp;amp;.e~ißd=30%sek&amp;#34;åt=6ZZKUEJDOVFYC4OIQBU2PLPYBH54VXWB We spent some time thinking what this could mean. But the qr code and its resulting string was actually bait. To actually get the flag we placed the qr code image in stegsolve. After going through a couple of planes we found this:</description>
     </item>
     
     <item>
@@ -86,7 +109,8 @@ Writeups This is where I store my ctf writeups. I only do writeups on challenges
 &amp;mdash;&amp;mdash;2022&amp;mdash;&amp;mdash; CyberGrabs 0x03
 VU Cyberthon 2022
 Vishwa CTF 2022
-picoCTF 2022</description>
+picoCTF 2022
+ICTF 2022</description>
     </item>
     
     <item>
@@ -96,7 +120,7 @@ picoCTF 2022</description>
       
       <guid>/ctfs/picoctf_2022/challs/</guid>
       <description>Home
-CyberGrabs 0x03 writeups picoCTF 2022
+picoCTF 2022 writeups picoCTF 2022
 picoCTF is an annual high school ctf hosted by the prestigious Carnegie Mellon University. As usual, they came up with challenging and engaging challenges this year that made us utilize our practical skills. What I love about picoCTF&amp;rsquo;s challenges is that they make you use skills that you would use on-the-field which makes it a great place to learn practical skills. I alongside Team Excelsior tried our best for #816/7794 globally.</description>
     </item>
     
