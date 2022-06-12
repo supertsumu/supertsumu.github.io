@@ -14,9 +14,10 @@
       
       <guid>/ctfs/ictf_2022/the_meetup/</guid>
       <description>Home
-The Meetup - 150 points - OSINT In this challenge, we are given the image file named The_Meetup.jpg. You can download this file here.
-The goal of this challenge is to find the exact name of the street name or the building name of the buildings in white.
-I always though people who were able to determine locations from mere images were really smart and I highly respect them. I&amp;rsquo;ve came across my handful of this type of OSINT questions but I&amp;rsquo;ve never been able to solve them until I had seen the amount of attention of detail used to solve these questions from writeups.</description>
+The Meetup - 150 points - OSINT Description My agent just sent me this image as the location for our next secret meetup. Where exactly is this?
+(This question does not use the BAT22{} flag format. Answer with the exact street or building name this image is taken from.)
+Creator: Nicholas Mun
+The Writeup In this challenge, we are given the image file named The_Meetup.jpg. You can download this file here.</description>
     </item>
     
   </channel>

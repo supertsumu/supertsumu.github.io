@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Misc on SuperTsumu</title>
+    <link>/tags/misc/</link>
+    <description>Recent content in Misc on SuperTsumu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 12 Jun 2022 00:35:39 +0800</lastBuildDate><atom:link href="/tags/misc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ICTF_2022/Grep</title>
+      <link>/ctfs/ictf_2022/grep/</link>
+      <pubDate>Sun, 12 Jun 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/ictf_2022/grep/</guid>
+      <description>Home
+Grep - 60 points - Misc Description Grab That Easy Flag Script Kiddie!
+Creator: Mohin Paramasivam
+The Writeup Figure 1: Quote by Ken Thompson In this challenge, we are given the file named &amp;ldquo;Readme&amp;rdquo;, which you can download here.
+According to my expert analysis, &amp;ldquo;Readme&amp;rdquo; is a file containing ±14 Kilobytes of ASCII text data. To read the raw data off the terminal, I used the unix command &amp;ldquo;cat&amp;rdquo; to print the data in the file:</description>
+    </item>
+    
+  </channel>
+</rss>

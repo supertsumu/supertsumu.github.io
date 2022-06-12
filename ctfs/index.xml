@@ -6,7 +6,20 @@
     <description>Recent content in Ctfs on SuperTsumu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 11 Jun 2022 00:35:39 +0800</lastBuildDate><atom:link href="/ctfs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jun 2022 00:35:39 +0800</lastBuildDate><atom:link href="/ctfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ICTF_2022/Grep</title>
+      <link>/ctfs/ictf_2022/grep/</link>
+      <pubDate>Sun, 12 Jun 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/ictf_2022/grep/</guid>
+      <description>Home
+Grep - 60 points - Misc Description Grab That Easy Flag Script Kiddie!
+Creator: Mohin Paramasivam
+The Writeup Figure 1: Quote by Ken Thompson In this challenge, we are given the file named &amp;ldquo;Readme&amp;rdquo;, which you can download here.
+According to my expert analysis, &amp;ldquo;Readme&amp;rdquo; is a file containing ±14 Kilobytes of ASCII text data. To read the raw data off the terminal, I used the unix command &amp;ldquo;cat&amp;rdquo; to print the data in the file:</description>
+    </item>
+    
     <item>
       <title>ICTF_2022</title>
       <link>/ctfs/ictf_2022/challs/</link>
@@ -25,9 +38,10 @@ The 2022 APU Internal CTF was hosted for the students of Asia Pacific University
       
       <guid>/ctfs/ictf_2022/the_meetup/</guid>
       <description>Home
-The Meetup - 150 points - OSINT In this challenge, we are given the image file named The_Meetup.jpg. You can download this file here.
-The goal of this challenge is to find the exact name of the street name or the building name of the buildings in white.
-I always though people who were able to determine locations from mere images were really smart and I highly respect them. I&amp;rsquo;ve came across my handful of this type of OSINT questions but I&amp;rsquo;ve never been able to solve them until I had seen the amount of attention of detail used to solve these questions from writeups.</description>
+The Meetup - 150 points - OSINT Description My agent just sent me this image as the location for our next secret meetup. Where exactly is this?
+(This question does not use the BAT22{} flag format. Answer with the exact street or building name this image is taken from.)
+Creator: Nicholas Mun
+The Writeup In this challenge, we are given the image file named The_Meetup.jpg. You can download this file here.</description>
     </item>
     
     <item>

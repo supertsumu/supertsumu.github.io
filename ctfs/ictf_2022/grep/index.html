@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en-gb"><head>
+    <title>ICTF_2022/Grep</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="" />
+    <style>
+@import "https://fonts.googleapis.com/css2?family=Inconsolata&display=swap";:root{--cursor-visibility:hidden}html,body{width:100%;height:100%;overflow:auto;font-family:inconsolata,monospace;font-size:4vmin;line-height:4.1vmin;font-weight:400}body{margin:0;display:flex;flex-direction:row;justify-content:center;align-items:center}#content{min-width:82vmin;min-height:82vmin}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{border-radius:10px;box-shadow:inset 0 0 1px white}::-webkit-scrollbar-thumb{border-radius:10px;box-shadow:0 0 0 1px white}.cursor,#activity-title:after,#activity-content:after,#ps1_01:after,#cd:after,#ps1_02:after,#cat:after,#std_out_01:after,#ps1_03:after,#std_out_02:after,#ps1_04:after{visibility:var(--cursor-visibility);content:"|";overflow:hidden;color:#fff;animation:blink 500ms linear infinite alternate}@keyframes blink{0%{opacity:0}100%{opacity:1}}@media only screen and (min-width:768px){body{font-size:2.5vmin;line-height:2.6vmin}#content{min-width:60vmin}}:root{--cursor-visibility:hidden}body{align-items:unset;overflow-y:scroll}#content{max-width:80vmin}pre{overflow-x:scroll;white-space:pre}@keyframes blink{0%{opacity:0}100%{opacity:1}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+body{background:#1b1d1e}body #terminal{color:#BBBBBB}body #user{color:#23E298}body #dir{color:#D08010}body .Typewriter__cursor{color:#BBBBBB}a{color:#BBBBBB}
+
+        
+.navFull {
+    background-color: #353535;
+    font-family: "Courier New";
+    font-size: 17px;
+    display: inline;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding-top: 5px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navCredits {
+    float: right;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+#content::after {
+    content: "\a\a";
+    white-space: pre;
+}
+        
+        
+</style>
+
+
+
+</head><body><div id="content">
+    
+    
+    
+
+
+    <span id="activity-title"></span> <br>
+ <span id="activity-content"></span> <br>
+
+<script type="text/javascript">
+    async function typewriter(text, elementId, waitAfter) {
+        var n = 0,
+            isTag = false
+        addText = "";
+        const el = document.getElementById(elementId);
+
+        const wait = () => new Promise(r => setTimeout(r, waitAfter));
+        const nowait = () => new Promise(r => r());
+
+        const render = () => el.innerHTML = (text.slice(0, n + 1) + addText);
+
+        const cursor = document.createElement('span');
+        cursor.id = "blink";
+
+        el.style.setProperty("--cursor-visibility", "visible");
+        while (n < text.length) {
+            if (text.charAt(n + 1) === "<") isTag = true;
+            if (text.charAt(n + 1) === ">") isTag = false;
+
+            if (isTag) {
+                n++;
+                continue;
+            }
+
+            requestAnimationFrame(render);
+
+            if (waitAfter === 0) {
+                await nowait();
+            } else {
+                await wait();
+            }
+
+            n++;
+        }
+        el.style.setProperty("--cursor-visibility", "collapse");
+    }
+
+    function parseDelay(d) {
+        const parsed = parseInt(d, 10);
+        if (isNaN(parsed)) return 0;
+        return parsed;
+    }
+
+    const titleDelay = parseDelay("0"),
+        contentDelay = parseDelay("0");
+    const typeeffetct = async () => {
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch1 id=\u0027title\u0027\u003eICTF_2022\/Grep\u003c\/h1\u003e\u003c\/span\u003e", "activity-title", titleDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003cp\u003e\u003ca href=\u0022\/\u0022 title=\u0022Home\u0022\u003eHome\u003c\/a\u003e\u003c\/p\u003e\n\u003ch2 id=\u0022grep---60-points---misc\u0022\u003eGrep - 60 points - Misc\u003c\/h2\u003e\n\u003cbr \/\u003e\n\u003ch3 id=\u0022description\u0022\u003eDescription\u003c\/h3\u003e\n\u003cp\u003eGrab That Easy Flag Script Kiddie!\u003c\/p\u003e\n\u003cp\u003eCreator: Mohin Paramasivam\u003c\/p\u003e\n\u003cbr \/\u003e\n\u003ch3 id=\u0022the-writeup\u0022\u003eThe Writeup\u003c\/h3\u003e\n\u003cbr \/\u003e\n\u003cimg src=\u0022\/thompsonquote.jpg\u0022 alt=\u0022drawing\u0022 width=\u0022700\u0022\/\u003e\n\u003ccenter\u003eFigure 1: Quote by Ken Thompson\u003c\/center\u003e\n\u003cp\u003eIn this challenge, we are given the file named \u0026ldquo;Readme\u0026rdquo;, which you can download \u003ca href=\u0022https:\/\/drive.google.com\/file\/d\/1oDcuKJb68uObfjU9_9Y_2ii7ffsZv4bS\/view?usp=sharing\u0022 title=\u0022Readme\u0022\u003ehere\u003c\/a\u003e.\u003c\/p\u003e\n\u003cp\u003eAccording to my expert analysis, \u0026ldquo;Readme\u0026rdquo; is a file containing ±14 Kilobytes of ASCII text data. To read the raw data off the terminal, I used the unix command \u0026ldquo;cat\u0026rdquo; to print the data in the file:\u003c\/p\u003e\n\u003cimg src=\u0022\/sc.png\u0022 alt=\u0022drawing\u0022 width=\u0022700\u0022\/\u003e\n\u003ccenter\u003eFigure 2: Raw data of the file \u0022Readme\u0022\u003c\/center\u003e\n\u003cp\u003eGoodness gracious! We are presented with a bunch of unintelligible junk! Well\u0026hellip; not a lot really. Scrolling down by just a bit brings you to the end of the file. I believe you can do better Mohin.\u003c\/p\u003e\n\u003cp\u003eNormally I would have given up at this point seeing that the author placed some stupid crypto challenge under \u0026ldquo;miscellaneous\u0026rdquo;, but I decided to take a look at the challenge question once again and I managed to find something strange. The challenge title seems to mention the word \u0026ldquo;Grep\u0026rdquo;. I googled the meaning of \u0026ldquo;Grep\u0026rdquo; to find that it stands for \u0026ldquo;Globally search for a Regular Expression and Print\u0026rdquo;. Apparently, Grep is a command line application made by Ken Thompson.\u003c\/p\u003e\n\u003ccenter\u003e\n\u003cimg src=\u0022\/kent1.jpg\u0022 alt=\u0022drawing\u0022 width=\u0022300\u0022\/\u003e\n\u003cimg src=\u0022\/walter.webp\u0022 alt=\u0022drawing\u0022 width=\u0022281\u0022\/\u003e\n\u003c\/center\u003e\n\u003ccenter\u003eFigures 3 \u0026 4: Images of Ken Thompson in the present and the past.\u003c\/center\u003e\n\u003cbr \/\u003e\nGrep was created on November of 1974. It all started when a man with the name of Lee Mcmahon was researching about the authors of the American Federalist Papers. A problem striked when Lee couldnt load the documents on the ed text editor because computers did not have enough memory to store the Federalist Papers which totalled to around 1 megabyte in size. During a time when computers with 64 kilobytes of RAM was considered luxurious, Macmahon was stuck in quite the plight. So Lee Mcmahon went over to Ken Thompson to have dinner and explained the predicament he found himself in. He said that he just wanted to search for an occurrence of something in the Federalist Papers so he could perform textual analysis on the literature. So overnight, Ken Thompson decided to programmed Grep using PDP-11 assembly language. On the next day Ken Thompson sent Lee Mcmahon Grep. It was exactly what he wanted. The program Grep became widely popular in the computer programming industry at the time so much so that in December of 2003, \u0022grep\u0022 was added to the oxford dictionary as both a noun and a verb. A common usage of the verb in a phrase is \u0022You can\u0027t grep dead trees\u0022. This means that it is not possible to use the functions of Grep on paper documents. The word \u0022Grep\u0022 is also the Swedish word for \u0022pitchfork\u0022 which I found very suitable as the program forks out occurrences that the user wants.\n\u003cp\u003eGrep was a program that accepts input data and regular expressions which are patterns of text. Grep will scan each line of the input data for a pattern match according to the regular expression(s) given. If a match is found, Grep will print the line out onto the terminal.\u003c\/p\u003e\n\u003cp\u003eThe usage of Grep is fairly simple, but we have to use the unix pipelining feature to feed the output of one program to another seamlessly. Although pipelining is relatively straightforward concept, it is the foundational building block of many programs created. Instead of being ambitious and saying \u0026ldquo;I am going to create this big program to solve an issue\u0026rdquo;, programmers often split the program into smaller modules. This not only, helps with debugging, but some functions are already made readily available for the programmers to use. They will only have to implement pipelining to have a steady flow of data from one module to another.\u003c\/p\u003e\n\u003cp\u003eThe most basic usage of grep to search for patterns given an input is the following:\u003c\/p\u003e\n\u003cdiv class=\u0022highlight\u0022\u003e\u003cpre tabindex=\u00220\u0022 style=\u0022color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\u0022\u003e\u003ccode class=\u0022language-bash\u0022 data-lang=\u0022bash\u0022\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003ecat \u003cspan style=\u0022color:#f92672\u0022\u003e[\u003c\/span\u003einput file\u003cspan style=\u0022color:#f92672\u0022\u003e]\u003c\/span\u003e | grep \u003cspan style=\u0022color:#e6db74\u0022\u003e\u0026#34;[regular expression]\u0026#34;\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003c\/code\u003e\u003c\/pre\u003e\u003c\/div\u003e\u003cp\u003eWe first have to run the unix command \u0026ldquo;cat\u0026rdquo; giving an input file as an argument. This will print the raw data onto the terminal as seen on Figure 2. Instead of outputting the data onto the terminal, we will be redirecting into Grep using the pipeline operator \u0026ldquo;|\u0026rdquo;. The output of the cat command is then scanned line by line by Grep for a regular expression\/pattern that we will have to give in quotes as an argument. If there are any matches for the pattern in a line, it will be printed in the terminal, if there are no matches at all, nothing will be returned.\u003c\/p\u003e\n\u003cbr \/\u003e\n\u003ch3 id=\u0022proof-of-concept\u0022\u003eProof of Concept\u003c\/h3\u003e\n\u003cp\u003eUse the following commands in a linux\/unix shell to get the flag:\u003c\/p\u003e\n\u003cpre tabindex=\u00220\u0022\u003e\u003ccode\u003ecat Readme | grep \u0026#34;BAT22\u0026#34;\n\u003c\/code\u003e\u003c\/pre\u003e\u003ccenter\u003e\u003cimg src=\u0022\/grep.png\u0022 alt=\u0022grep\u0022 width=\u0022500\u0022\/\u003e\u003c\/center\u003e\n\u003cp\u003eHere, we give the file Readme as the argument for the cat command. It then sends the raw data to the grep command where it scans each line for an occurrence of \u0026ldquo;BAT22\u0026rdquo; which is the flag format for ICTF 2022. If everything is in place, the flag should be released onto the terminal, benefitting the player with a 60 point advantage in the CTF.\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003eFlag: BAT22{grep_is_good_to_find_things_205b65d7}\u003c\/strong\u003e\u003c\/p\u003e\n\u003cbr \/\u003e\n\u003cbr \/\u003e\n\u003ch2 id=\u0022references\u0022\u003eReferences\u003c\/h2\u003e\n\u003cp\u003eThe grep Wikipedia:\n\u003ca href=\u0022https:\/\/en.wikipedia.org\/wiki\/Grep\u0022\u003ehttps:\/\/en.wikipedia.org\/wiki\/Grep\u003c\/a\u003e\u003c\/p\u003e\n\u003cp\u003eWhere GREP Came From - Computerphile:\n\u003ca href=\u0022https:\/\/www.youtube.com\/watch?v=NTfOnGZUZDk\u0026amp;t=3s\u0026amp;ab_channel=Computerphile\u0022\u003ehttps:\/\/www.youtube.com\/watch?v=NTfOnGZUZDk\u0026amp;t=3s\u0026amp;ab_channel=Computerphile\u003c\/a\u003e\u003c\/p\u003e\n\u003cp\u003eAT\u0026amp;T Archives: The UNIX Operating System:\n\u003ca href=\u0022https:\/\/www.youtube.com\/watch?v=tc4ROCJYbm0\u0026amp;ab_channel=AT%26TTechChannel\u0022\u003ehttps:\/\/www.youtube.com\/watch?v=tc4ROCJYbm0\u0026amp;ab_channel=AT%26TTechChannel\u003c\/a\u003e\u003c\/p\u003e\n\u003cp\u003eHow Grep Got Its Name? The History Behind Grep\u0026rsquo;s Creation:\n\u003ca href=\u0022https:\/\/www.makeuseof.com\/how-grep-got-its-name-the-history-behind-greps-creation\/\u0022\u003ehttps:\/\/www.makeuseof.com\/how-grep-got-its-name-the-history-behind-greps-creation\/\u003c\/a\u003e\u003c\/p\u003e\n\u003c\/span\u003e", "activity-content", contentDelay);
+        return;
+    }
+
+    typeeffetct()
+</script>
+
+        </div>
+        
+        
+        
+         
+    </body>
+</html>
