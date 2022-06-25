@@ -14,7 +14,7 @@
       
       <guid>/blogs/revducky/</guid>
       <description>Home
-I made a rubber ducky reverse shell for   The Hak5 USB Rubber Ducky is a small microcontroller that acts as a keyboard and automatically enters pre-programmed keystrokes. The original Rubber Ducky by Hak5 will cost you 60$. I will be making one for under 10$ with an Arduino pro micro and writing a script to start and conceal a Windows 10 reverse shell. This blog post will be a guide for users with a Linux attacker machine and a Windows 10 Home victim machine.</description>
+I made a rubber ducky reverse shell for  USB Rubber Ducky by Hak5  The Hak5 USB Rubber Ducky is a small microcontroller that acts as a keyboard and automatically enters pre-programmed keystrokes. The original Rubber Ducky by Hak5 will cost you 60$. I will be making one for under 10$ with an Arduino pro micro and writing a script to start and conceal a Windows 10 reverse shell.</description>
     </item>
     
   </channel>
