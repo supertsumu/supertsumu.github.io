@@ -45,6 +45,16 @@ The Writeup In this challenge, we are given the image file named The_Meetup.jpg.
     </item>
     
     <item>
+      <title>revducky</title>
+      <link>/blogs/revducky/</link>
+      <pubDate>Sat, 11 Jun 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/blogs/revducky/</guid>
+      <description>Home
+I made a rubber ducky reverse shell for   The Hak5 USB Rubber Ducky is a small microcontroller that acts as a keyboard and automatically enters pre-programmed keystrokes. The original Rubber Ducky by Hak5 will cost you 60$. I will be making one for under 10$ with an Arduino pro micro and writing a script to start and conceal a Windows 10 reverse shell. This blog post will be a guide for users with a Linux attacker machine and a Windows 10 Home victim machine.</description>
+    </item>
+    
+    <item>
       <title>VishwaCTF/The_Library</title>
       <link>/ctfs/vishwactf_2022/the_library/</link>
       <pubDate>Sat, 19 Feb 2022 00:35:39 +0800</pubDate>
@@ -67,6 +77,17 @@ Level 1 After sending a &amp;ldquo;hello&amp;rdquo; to the librarian, we get:</d
 When universes collide - 50 points - Forensics, Cryptography We are given this file Challenge 1.png.
 Instinctively we would all scan this qr code. We get this string in return:
 otp!áth:,+totp/No~d%20AccÏ%nt:vuctf2&amp;gt;2Ò@b¥s{paâa$iÚeîcÏm?algïrn|hc=SHA1&amp;amp;digiws=6.issuå}=No}d+AcCounz&amp;amp;.e~ißd=30%sek&amp;#34;åt=6ZZKUEJDOVFYC4OIQBU2PLPYBH54VXWB We spent some time thinking what this could mean. But the qr code and its resulting string was actually bait. To actually get the flag we placed the qr code image in stegsolve. After going through a couple of planes we found this:</description>
+    </item>
+    
+    <item>
+      <title>&gt;blog</title>
+      <link>/blog/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/blog/</guid>
+      <description>Home
+My blogs Here I talk about stuff I did that I think are cool.
+ I made a rubber ducky reverse shell for &amp;lt;$10 (Win-10) </description>
     </item>
     
     <item>
