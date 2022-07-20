@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on SuperTsumu</title>
+    <link>/tags/web/</link>
+    <description>Recent content in Web on SuperTsumu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 09 Feb 2022 00:35:39 +0800</lastBuildDate><atom:link href="/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Break The Storage</title>
+      <link>/ctfs/bo1337preselection/breakthestorage/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/bo1337preselection/breakthestorage/</guid>
+      <description>Home
+Break The Storage - 50 points - Web We get sent to a website with a username and password input field:
+Trying to log in with incorrect credentials will trigger this pop-up:
+Upon inspecting the source code of index.js?v=1337, We can see that upon successful login, we will be redirected to profile.html. Going straight to profile.html will redirect you back to login.html if the correct credentials are not entered. I used Burp Suite&amp;rsquo;s proxy to intercept and stop the site from redirecting me to login.</description>
+    </item>
+    
+  </channel>
+</rss>

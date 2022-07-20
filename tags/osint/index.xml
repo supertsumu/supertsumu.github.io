@@ -20,5 +20,37 @@ Creator: Nicholas Mun
 The Writeup In this challenge, we are given the image file named The_Meetup.jpg. You can download this file here.</description>
     </item>
     
+    <item>
+      <title>1Gram</title>
+      <link>/ctfs/bo1337preselection/1gram/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/bo1337preselection/1gram/</guid>
+      <description>Home
+1Gram - 100 points - OSINT On the same site given in Back to the future, clicking on any of the profile boxes will give you a username for an instagram profile:
+We can find part of the flag in the posts:
+Looking at the posts individually we can see tags to other accounts with similar posts showing other parts of the flag. Piecing together the letters, we can get the flag.</description>
+    </item>
+    
+    <item>
+      <title>Back To The Future</title>
+      <link>/ctfs/bo1337preselection/backtothefuture/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/bo1337preselection/backtothefuture/</guid>
+      <description>Home
+Back To The Future - 50 points - OSINT We were given a website for this challenge. Giving the challenge&amp;rsquo;s hints to the past, I looked for past screenshots of the site in The Wayback Machine and found a screenshot from the 4th of July 2022. Viewing the screenshot gives us the flag:</description>
+    </item>
+    
+    <item>
+      <title>Snap</title>
+      <link>/ctfs/bo1337preselection/snap/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/bo1337preselection/snap/</guid>
+      <description>Home
+Streamline - 100 points - OSINT There weren&amp;rsquo;t many hints from this challenge other than it suggesting that the challenge remains on Instagram. Since the previous challenge is Instagram related, I took a look back at the challenge profiles and noticed that some of the profile images look very strange. Using Toolzu&amp;rsquo;s Instadp, I was able to download the profile pictures from the previous challenge. Piecing them together gives us this full image:</description>
+    </item>
+    
   </channel>
 </rss>

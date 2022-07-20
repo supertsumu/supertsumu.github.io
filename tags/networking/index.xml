@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networking on SuperTsumu</title>
+    <link>/tags/networking/</link>
+    <description>Recent content in Networking on SuperTsumu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 09 Feb 2022 00:35:39 +0800</lastBuildDate><atom:link href="/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Semerah Padi</title>
+      <link>/ctfs/bo1337preselection/semerahpadi/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/bo1337preselection/semerahpadi/</guid>
+      <description>Home
+Semerah Padi - 100 points - Networking We open the flaghere.pcap file in Wireshark to analyze the packets. We can find some http packets with Lorem ipsum as the content. We can view the whole conversation by following the tcp stream:
+Hidden within the Lorem Ipsum, we can find a suspicious string that resembles a scrambled web address:
+After some time trying different transposition ciphers, using the rail fence cipher, we can get a valid url.</description>
+    </item>
+    
+    <item>
+      <title>Streamline</title>
+      <link>/ctfs/bo1337preselection/streamline/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/bo1337preselection/streamline/</guid>
+      <description>Home
+Streamline - 176 points - Networking We are given an image file, this time named LamboRidzuan:
+Using stegseek, I am able to bruteforce a hidden file using rockyou.txt.
+I renamed it to its original file name of handshake.cap and opened it with wireshark. Looking at the protocol hierarchy of the packets, we do not have a lot to look at:
+This is because the data has been encrypted. We can search for the handshake by inserting &amp;ldquo;eapol&amp;rdquo; into the filter bar:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,23 @@
     <description>Recent content on SuperTsumu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 12 Jun 2022 00:35:39 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jul 2022 00:35:39 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Battle of 1337 2022 preselection writeups</title>
+      <link>/ctfs/bo1337preselection/challs/</link>
+      <pubDate>Wed, 20 Jul 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/bo1337preselection/challs/</guid>
+      <description>Home
+Battle of 1337 2022 preselection writeups BO1337 Website
+This local CTF was surely an experience for me. I managed to get my first &amp;ldquo;first blood&amp;rdquo; since I started participating in CTFs. Huge thanks to the sponsors for funding the event and the staff for creating these awesome challenges.
+Semerah Padi - 100 [Networking]
+Streamline - 176 [Networking]
+Break The Storage - 50 [Web]
+Rayquaza - 50 [Misc]
+Darchrow - 100 [Misc]</description>
+    </item>
+    
     <item>
       <title>ICTF_2022/Grep</title>
       <link>/ctfs/ictf_2022/grep/</link>
@@ -51,7 +67,7 @@ The Writeup In this challenge, we are given the image file named The_Meetup.jpg.
       
       <guid>/blogs/revducky/</guid>
       <description>Home
-I made a rubber ducky reverse shell for  USB Rubber Ducky by Hak5  The Hak5 USB Rubber Ducky is a small microcontroller that acts as a keyboard and automatically enters pre-programmed keystrokes. The original Rubber Ducky by Hak5 will cost you 60$. I will be making one for under 10$ with an Arduino pro micro and writing a script to start and conceal a Windows 10 reverse shell.</description>
+I made a rubber ducky reverse shell for &lt;$10 (Win-10) USB Rubber Ducky by Hak5 The Hak5 USB Rubber Ducky is a small microcontroller that acts as a keyboard and automatically enters pre-programmed keystrokes. The original Rubber Ducky by Hak5 will cost you 60$. I will be making one for under 10$ with an Arduino pro micro and writing a script to start and conceal a Windows 10 reverse shell.</description>
     </item>
     
     <item>
@@ -87,7 +103,7 @@ otp!áth:,+totp/No~d%20AccÏ%nt:vuctf2&amp;gt;2Ò@b¥s{paâa$iÚeîcÏm?algïrn|
       <guid>/blog/</guid>
       <description>Home
 My blogs Here I talk about stuff I did that I think are cool.
- I made a rubber ducky reverse shell for &amp;lt;$10 (Win-10) </description>
+I made a rubber ducky reverse shell for &amp;lt;$10 (Win-10) </description>
     </item>
     
     <item>
@@ -97,8 +113,41 @@ My blogs Here I talk about stuff I did that I think are cool.
       
       <guid>/about/</guid>
       <description>Home
-About Me    Wrapping an Image with the text   body { margin: 20px; text-align: center; } h1 { color: green; } img { float: left; margin: 40px; } p { text-align: justify; font-size: 24px; line-height: 1.5; }  
-    Greetings. I am Damien Wong/SuperTsumu, a beginner cyber security engineer from Malaysia &amp; CTF player for Team Excelsior. I am currently studying for a diploma in ICT specializing in software engineering at Asia Pacific University of Technology and Innovation.</description>
+About Me &lt;!DOCTYPE html&gt; Wrapping an Image with the text Greetings. I am Damien Wong/SuperTsumu, a beginner cyber security engineer from Malaysia &amp; CTF player for Team Excelsior. I am currently studying for a diploma in ICT specializing in software engineering at Asia Pacific University of Technology and Innovation. To contact me personally, my Discord ID is SuperTsumu#9404. Please do not hesitate to send me a message about literally anything.</description>
+    </item>
+    
+    <item>
+      <title>1Gram</title>
+      <link>/ctfs/bo1337preselection/1gram/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/bo1337preselection/1gram/</guid>
+      <description>Home
+1Gram - 100 points - OSINT On the same site given in Back to the future, clicking on any of the profile boxes will give you a username for an instagram profile:
+We can find part of the flag in the posts:
+Looking at the posts individually we can see tags to other accounts with similar posts showing other parts of the flag. Piecing together the letters, we can get the flag.</description>
+    </item>
+    
+    <item>
+      <title>Back To The Future</title>
+      <link>/ctfs/bo1337preselection/backtothefuture/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/bo1337preselection/backtothefuture/</guid>
+      <description>Home
+Back To The Future - 50 points - OSINT We were given a website for this challenge. Giving the challenge&amp;rsquo;s hints to the past, I looked for past screenshots of the site in The Wayback Machine and found a screenshot from the 4th of July 2022. Viewing the screenshot gives us the flag:</description>
+    </item>
+    
+    <item>
+      <title>Break The Storage</title>
+      <link>/ctfs/bo1337preselection/breakthestorage/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/bo1337preselection/breakthestorage/</guid>
+      <description>Home
+Break The Storage - 50 points - Web We get sent to a website with a username and password input field:
+Trying to log in with incorrect credentials will trigger this pop-up:
+Upon inspecting the source code of index.js?v=1337, We can see that upon successful login, we will be redirected to profile.html. Going straight to profile.html will redirect you back to login.html if the correct credentials are not entered. I used Burp Suite&amp;rsquo;s proxy to intercept and stop the site from redirecting me to login.</description>
     </item>
     
     <item>
@@ -109,6 +158,19 @@ About Me    Wrapping an Image with the text   body { margin: 20px; text-align: c
       <guid>/ctfs/cybergrabs0x03/challs/</guid>
       <description>Home
 CyberGrabs 0x03 writeups Mr. Robot - 200 [Forensics]</description>
+    </item>
+    
+    <item>
+      <title>Darchrow</title>
+      <link>/ctfs/bo1337preselection/darchrow/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/bo1337preselection/darchrow/</guid>
+      <description>Home
+Darchrow - 100 points - Misc We get the following image from this challenge:
+Instead of using OCR software to get the text out of the image, I meticulously typed the letters for the sake of accuracy:
+ACZQQOKLHUALHPTXGXKEPWTLDJUCEORHRKTQRTVKXOWRBYACBUKRUPCEA QRAKMZRJHCEHZJWJKSGTLTMOXTEJHLPPEHXJBQQWKXYQNKFTOKBJUVFRUF CSQMTXHTTDJSOFWHYNSOHVEZGQVURJFJALJEXQWWYWIZBJLMOYDMGNXOMR MLQRSYWZHJGBLCSHNMYFXESJNFBBITRXHKZYQGYIPEUYTNFXSSPCXIZJMR CTLHUUHBFEXIVBMEURYMPAZATXUVNVQRSLPFVWWBBUHOEMXYRPMLTYZXLH SAPMMMQOEHXKQCDWBSWDMTFMSMFBNCQGMQHHJPQYKJPZNMYYDKZYZXUHOO HAIAFGMDBMYAEQPRSUVQKGEZSA
+Looking up &amp;ldquo;Darchrow consumer of worlds&amp;rdquo; on the web, we can find a Dota 2 character named Darchrow, the Enigma. I immediately placed the ciphertext into dcode.</description>
     </item>
     
     <item>
@@ -140,7 +202,8 @@ Writeups This is where I store my ctf writeups. I only do writeups on challenges
 VU Cyberthon 2022
 Vishwa CTF 2022
 picoCTF 2022
-ICTF 2022</description>
+ICTF 2022
+BO1337 2022 preselection</description>
     </item>
     
     <item>
@@ -152,6 +215,65 @@ ICTF 2022</description>
       <description>Home
 picoCTF 2022 writeups picoCTF 2022
 picoCTF is an annual high school ctf hosted by the prestigious Carnegie Mellon University. As usual, they came up with challenging and engaging challenges this year that made us utilize our practical skills. What I love about picoCTF&amp;rsquo;s challenges is that they make you use skills that you would use on-the-field which makes it a great place to learn practical skills. I alongside Team Excelsior tried our best for #816/7794 globally.</description>
+    </item>
+    
+    <item>
+      <title>Rayquaza</title>
+      <link>/ctfs/bo1337preselection/rayquaza/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/bo1337preselection/rayquaza/</guid>
+      <description>Home
+Rayquaza - 50 points - Misc In this challenge, we were given the file &amp;ldquo;1337Pikachu&amp;rdquo;. Using the Linux &amp;ldquo;file&amp;rdquo; command tells us that we are dealing with a Game Boy Advance ROM / GBA file.
+After spending about an hour trying different Game Boy Advance emulators, I got to boot the ROM using VisualBoyAdvance after giving the file a .gba file extension:
+And after a few minutes of gameplay, I managed to get the flag from the fat guy as stated in the challenge description:</description>
+    </item>
+    
+    <item>
+      <title>Redpoint</title>
+      <link>/ctfs/bo1337preselection/redpoint/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/bo1337preselection/redpoint/</guid>
+      <description>Home
+Redpoint - 443 points - Misc This image is given for the challenge:
+After using every forensics tool I know on the image, I have come to the conclusion that the flag was the screwdriver.
+Flag: BO1337{screwdriver}</description>
+    </item>
+    
+    <item>
+      <title>Semerah Padi</title>
+      <link>/ctfs/bo1337preselection/semerahpadi/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/bo1337preselection/semerahpadi/</guid>
+      <description>Home
+Semerah Padi - 100 points - Networking We open the flaghere.pcap file in Wireshark to analyze the packets. We can find some http packets with Lorem ipsum as the content. We can view the whole conversation by following the tcp stream:
+Hidden within the Lorem Ipsum, we can find a suspicious string that resembles a scrambled web address:
+After some time trying different transposition ciphers, using the rail fence cipher, we can get a valid url.</description>
+    </item>
+    
+    <item>
+      <title>Snap</title>
+      <link>/ctfs/bo1337preselection/snap/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/bo1337preselection/snap/</guid>
+      <description>Home
+Streamline - 100 points - OSINT There weren&amp;rsquo;t many hints from this challenge other than it suggesting that the challenge remains on Instagram. Since the previous challenge is Instagram related, I took a look back at the challenge profiles and noticed that some of the profile images look very strange. Using Toolzu&amp;rsquo;s Instadp, I was able to download the profile pictures from the previous challenge. Piecing them together gives us this full image:</description>
+    </item>
+    
+    <item>
+      <title>Streamline</title>
+      <link>/ctfs/bo1337preselection/streamline/</link>
+      <pubDate>Wed, 09 Feb 2022 00:35:39 +0800</pubDate>
+      
+      <guid>/ctfs/bo1337preselection/streamline/</guid>
+      <description>Home
+Streamline - 176 points - Networking We are given an image file, this time named LamboRidzuan:
+Using stegseek, I am able to bruteforce a hidden file using rockyou.txt.
+I renamed it to its original file name of handshake.cap and opened it with wireshark. Looking at the protocol hierarchy of the packets, we do not have a lot to look at:
+This is because the data has been encrypted. We can search for the handshake by inserting &amp;ldquo;eapol&amp;rdquo; into the filter bar:</description>
     </item>
     
     <item>

@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/ctfs/bo1337preselection/challs/</loc>
+    <lastmod>2022-07-20T00:35:39+08:00</lastmod>
+  </url><url>
     <loc>/ctfs/</loc>
-    <lastmod>2022-06-12T00:35:39+08:00</lastmod>
+    <lastmod>2022-07-20T00:35:39+08:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-07-20T00:35:39+08:00</lastmod>
   </url><url>
     <loc>/ctfs/ictf_2022/grep/</loc>
     <lastmod>2022-06-12T00:35:39+08:00</lastmod>
   </url><url>
     <loc>/tags/misc/</loc>
-    <lastmod>2022-06-12T00:35:39+08:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2022-06-12T00:35:39+08:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
@@ -50,7 +53,19 @@
     <loc>/about/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
+    <loc>/ctfs/bo1337preselection/1gram/</loc>
+    <lastmod>2022-02-09T00:35:39+08:00</lastmod>
+  </url><url>
+    <loc>/ctfs/bo1337preselection/backtothefuture/</loc>
+    <lastmod>2022-02-09T00:35:39+08:00</lastmod>
+  </url><url>
+    <loc>/ctfs/bo1337preselection/breakthestorage/</loc>
+    <lastmod>2022-02-09T00:35:39+08:00</lastmod>
+  </url><url>
     <loc>/ctfs/cybergrabs0x03/challs/</loc>
+    <lastmod>2022-02-09T00:35:39+08:00</lastmod>
+  </url><url>
+    <loc>/ctfs/bo1337preselection/darchrow/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
     <loc>/tags/forensics/</loc>
@@ -62,7 +77,25 @@
     <loc>/writeups/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
+    <loc>/tags/networking/</loc>
+    <lastmod>2022-02-09T00:35:39+08:00</lastmod>
+  </url><url>
     <loc>/ctfs/picoctf_2022/challs/</loc>
+    <lastmod>2022-02-09T00:35:39+08:00</lastmod>
+  </url><url>
+    <loc>/ctfs/bo1337preselection/rayquaza/</loc>
+    <lastmod>2022-02-09T00:35:39+08:00</lastmod>
+  </url><url>
+    <loc>/ctfs/bo1337preselection/redpoint/</loc>
+    <lastmod>2022-02-09T00:35:39+08:00</lastmod>
+  </url><url>
+    <loc>/ctfs/bo1337preselection/semerahpadi/</loc>
+    <lastmod>2022-02-09T00:35:39+08:00</lastmod>
+  </url><url>
+    <loc>/ctfs/bo1337preselection/snap/</loc>
+    <lastmod>2022-02-09T00:35:39+08:00</lastmod>
+  </url><url>
+    <loc>/ctfs/bo1337preselection/streamline/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
     <loc>/ctfs/picoctf_2022/torrent/</loc>
@@ -72,6 +105,9 @@
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
     <loc>/ctfs/vu_cyberthon_2022/challs/</loc>
+    <lastmod>2022-02-09T00:35:39+08:00</lastmod>
+  </url><url>
+    <loc>/tags/web/</loc>
     <lastmod>2022-02-09T00:35:39+08:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
