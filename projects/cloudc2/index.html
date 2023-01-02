@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+    <title>CloudC2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="" />
+    <style>
+@import "https://fonts.googleapis.com/css2?family=Inconsolata&display=swap";:root{--cursor-visibility:hidden}html,body{width:100%;height:100%;overflow:auto;font-family:inconsolata,monospace;font-size:4vmin;line-height:4.1vmin;font-weight:400}body{margin:0;display:flex;flex-direction:row;justify-content:center;align-items:center}#content{min-width:82vmin;min-height:82vmin}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{border-radius:10px;box-shadow:inset 0 0 1px white}::-webkit-scrollbar-thumb{border-radius:10px;box-shadow:0 0 0 1px white}.cursor,#activity-title:after,#activity-content:after,#cd:after,#whoami:after,#cat:after,#tree:after{visibility:var(--cursor-visibility);content:"|";overflow:hidden;color:#fff;animation:blink 500ms linear infinite alternate}@keyframes blink{0%{opacity:0}100%{opacity:1}}@media only screen and (min-width:768px){body{font-size:2.5vmin;line-height:2.6vmin}#content{min-width:60vmin}}:root{--cursor-visibility:hidden}body{align-items:unset;overflow-y:scroll}#content{max-width:80vmin}pre{overflow-x:scroll;white-space:pre}@keyframes blink{0%{opacity:0}100%{opacity:1}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+body{background:#1b1d1e}body #terminal{color:#BBBBBB}body #user{color:#23E298}body #dir{color:#D08010}body .Typewriter__cursor{color:#BBBBBB}a{color:#BBBBBB}
+
+        
+.navFull {
+    background-color: #353535;
+    font-family: "Courier New";
+    font-size: 17px;
+    display: inline;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding-top: 5px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navCredits {
+    float: right;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+#content::after {
+    content: "\a\a";
+    white-space: pre;
+}
+        
+        
+</style>
+
+
+
+</head><body><div id="content">
+    
+    
+    
+
+
+    <span id="activity-title"></span> <br>
+ <span id="activity-content"></span> <br>
+
+<script type="text/javascript">
+    async function typewriter(text, elementId, waitAfter) {
+        var n = 0,
+            isTag = false
+        addText = "";
+        const el = document.getElementById(elementId);
+
+        const wait = () => new Promise(r => setTimeout(r, waitAfter));
+        const nowait = () => new Promise(r => r());
+
+        const render = () => el.innerHTML = (text.slice(0, n + 1) + addText);
+
+        const cursor = document.createElement('span');
+        cursor.id = "blink";
+
+        el.style.setProperty("--cursor-visibility", "visible");
+        while (n < text.length) {
+            if (text.charAt(n + 1) === "<") isTag = true;
+            if (text.charAt(n + 1) === ">") isTag = false;
+
+            if (isTag) {
+                n++;
+                continue;
+            }
+
+            requestAnimationFrame(render);
+
+            if (waitAfter === 0) {
+                await nowait();
+            } else {
+                await wait();
+            }
+
+            n++;
+        }
+        el.style.setProperty("--cursor-visibility", "collapse");
+    }
+
+    function parseDelay(d) {
+        const parsed = parseInt(d, 10);
+        if (isNaN(parsed)) return 0;
+        return parsed;
+    }
+
+    const titleDelay = parseDelay("0"),
+        contentDelay = parseDelay("0");
+    const typeeffetct = async () => {
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch1 id=\u0027title\u0027\u003eCloudC2\u003c\/h1\u003e\u003c\/span\u003e", "activity-title", titleDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003cp\u003e\u003ca href=\u0022\/\u0022\u003eHome\u003c\/a\u003e\u003c\/p\u003e\n\u003ch1 style=\u0022line-height: 1.0;\u0022\u003eHow to make a command-and-control (C2) server on the cloud\u003c\/h1\u003e\n\u003cbr\/\u003e\n\u003ccenter\u003e\u003cimg src=\u0022\/cloudc2logo.png\u0022 alt=\u0022hak5 rubber ducky\u0022 width=\u002270%\u0022 height=\u002270%\u0022\u003e\u003cbr\/\u003e\u003c\/center\u003e\n\u003cp\u003eA command-and-control server (C2) is a server where hackers control their victim’s compromised computers via bind\/reverse shells. They can come in the form of a simple netcat instance or fully developed frameworks that feature exploitation scripts such as Meterpreter and PowerSploit.\u003c\/p\u003e\n\u003cp\u003eIn this article, I will be demonstrating how I hosted my C2 server on the cloud and its capabilities using the Linode cloud hosting service.\n\u003cbr\/\u003e\u003cbr\/\u003e\u003cbr\/\u003e\u003c\/p\u003e\n\u003ch1 id=\u0022why-host-on-the-cloud\u0022\u003eWhy host on the cloud?\u003c\/h1\u003e\n\u003ch2 id=\u0022risk-of-having-publicly-open-ports\u0022\u003eRisk of having publicly open ports.\u003c\/h2\u003e\n\u003cp\u003eTo be able to compromise machines in other private networks, we must get the victim’s machine to connect to our machine that has service that waits for a connection. In order for the machines to connect, our attacker machine must be public facing (having a public IP address). This can be done on a normal home network via port forwarding. However,not only this is hard to set up, it puts the devices in your internal network at risk such as your personal computers, smartphones and IOT devices. This is because if other attackers manage to compromise your C2 server hosted using your home wifi, they will be able to communicate with other devices connected to your home wifi and also potentially gain access to them too.\u003c\/p\u003e\n\u003cp\u003eWith a C2 server that is hosted on the cloud, attackers are not able to move laterally to other devices since cloud providers will give us a private subnet consisting of only the C2 server, so there will be no other targets for attackers to compromise.\u003c\/p\u003e\n\u003ch2 id=\u0022convenience-of-ssh\u0022\u003eConvenience of SSH\u003c\/h2\u003e\n\u003cp\u003eSince our C2 server is public facing, our cloud providers will often set up SSH services so that we can control our C2 server from our devices. This means that we can hack from any device that supports a SSH client such as a laptop or even Android phone!\u003c\/p\u003e\n\u003ccenter\u003e\u003cimg src=\u0022\/C2phone.jpg\u0022 alt=\u0022hak5 rubber ducky\u0022 width=\u002260%\u0022 height=\u002260%\u0022\u003e\u003cbr\/\u003eMy C2 server on Android using the Termius SSH client.\u003c\/center\u003e\n\u003ch1 style=\u0022line-height: 1.0;\u0022\u003eCreating a cloud instance with Linode\u003c\/h1\u003e\n\u003cbr\/\u003e\n\u003cp\u003eAny cloud hosting service could work but I will be working with Linode. You can sign up for an account here. At the time of my writting, Linode is offering 100$ worth of credit for 2 months so it is worth trying this mini project with the free trial.\u003c\/p\u003e\n\u003cp\u003eAfter signing up and verifying your email and payment information etc, head to the Linode Manager and make a cloud instance by clicking “Create Linode”.\u003c\/p\u003e\n\u003ccenter\u003e\u003cimg src=\u0022\/createlinode.png\u0022 alt=\u0022hak5 rubber ducky\u0022 width=\u0022100%\u0022 height=\u0022100%\u0022\u003e\u003cbr\/\u003e\u003c\/center\u003e\n\u003cp\u003eThen, you want to choose a Linux distribution, your region, your linode plan, linode label and a root password. Your chosen region will affect your connection to the server so pick the region closest to you. For the linode plan, I chose the dedicated CPU plan with 4GB of RAM, 2 CPUs and 80GBs of storage. Rapid7 recommends at least 4 gigabytes of RAM to run Metasploit as stated in their \u003ca href=\u0022https:\/\/www.rapid7.com\/products\/metasploit\/system-requirements\/\u0022\u003esystem requirements\u003c\/a\u003e.\u003c\/p\u003e\n\u003cp\u003eYou might want to consider picking a Linux Distribution other than Kali Linux to hide suspicion but I will be using Kali Linux as it is easier to install Metasploit on the machine. If you decide to use another Linux Distribution, you will have to download Metasploit from their Github page and build it from source or add the Kali Linux repository to your list of repositories before installing with your chosen installer.\u003c\/p\u003e\n\u003cp\u003eOnce you have made your Linode, give it a while for it to boot and log into it via SSH from your terminal using:\u003c\/p\u003e\n\u003cdiv class=\u0022highlight\u0022\u003e\u003cpre tabindex=\u00220\u0022 style=\u0022color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\u0022\u003e\u003ccode class=\u0022language-bash\u0022 data-lang=\u0022bash\u0022\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003essh root@\u003cspan style=\u0022color:#f92672\u0022\u003e[\u003c\/span\u003eIP address of you Linode\u003cspan style=\u0022color:#f92672\u0022\u003e]\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003c\/code\u003e\u003c\/pre\u003e\u003c\/div\u003e\u003cp\u003eAt this point, you have successfully created you cloud C2 server. You can start testing it by starting a tcp reverse shell listener using netcat or any other C2 framework such as Metasploit’s exploit\/multi\/handler. This should work for any device on any network provided you set the LHOST option to your C2 server’s public IP address.\u003c\/p\u003e\n\u003cp\u003ePaired with my DIY USB rubber ducky which you can find here, I am able to get a reverse shell on a computer given a couple seconds of physical access and control it from my cloud C2 server on my smartphone. Due to how quick and easy it is to compromise a machine and control it with a computer disguised as a smartphone on-site, this combo proves to be a great tool when practicing solo red-teaming.\u003c\/p\u003e\n\u003cp\u003eThanks for reading. If you have any questions about my mini project please contact me on discord at SuperTsumu#9404\u003c\/p\u003e\n\u003c\/span\u003e", "activity-content", contentDelay);
+        return;
+    }
+
+    typeeffetct()
+</script>
+
+        </div>
+        
+        
+        
+         
+    </body>
+</html>
