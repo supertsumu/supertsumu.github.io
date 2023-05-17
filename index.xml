@@ -144,5 +144,15 @@ Windows Defender Bypass with Villain and Obfuscation (14/12/2022) Windows Defend
 I made a rubber ducky reverse shell for &lt;$10 (Win-10) USB Rubber Ducky by Hak5 The Hak5 USB Rubber Ducky is a small microcontroller that acts as a keyboard and automatically enters pre-programmed keystrokes. The original Rubber Ducky by Hak5 will cost you 60$. I will be making one for under 10$ with an Arduino pro micro and writing a script to start and conceal a Windows 10 reverse shell.</description>
     </item>
     
+    <item>
+      <title>C2 Tunneling</title>
+      <link>https://supertsumu.github.io/projects/tunnel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://supertsumu.github.io/projects/tunnel/</guid>
+      <description>Home
+[OPSEC] Tunneling C2 traffic </description>
+    </item>
+    
   </channel>
 </rss>
