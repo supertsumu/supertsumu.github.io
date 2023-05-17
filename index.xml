@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SuperTsumu</title>
-    <link>https://supertsumu.com/</link>
+    <link>https://supertsumu.github.io/</link>
     <description>Recent content on SuperTsumu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Dec 2022 18:07:47 +0800</lastBuildDate><atom:link href="https://supertsumu.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Dec 2022 18:07:47 +0800</lastBuildDate><atom:link href="https://supertsumu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>&gt;whoami</title>
-      <link>https://supertsumu.com/about/</link>
+      <link>https://supertsumu.github.io/about/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
       
-      <guid>https://supertsumu.com/about/</guid>
+      <guid>https://supertsumu.github.io/about/</guid>
       <description>Home
 About Me Greetings. I am Damien Wong/SuperTsumu, a beginner cyber security engineer from Malaysia &amp;amp; CTF player for Team Excelsior. I am currently studying for a diploma in ICT specializing in software engineering at Asia Pacific University of Technology and Innovation. To contact me personally, my Discord ID is SuperTsumu#9404. Please do not hesitate to send me a message about literally anything. Qualifications: IGCSE 2020 @ Sri KDU International School Diploma in ICT Specializing in Software Engineering @ Asia Pacific University of Technology &amp; Innovation CTF History APU ICTF 2021 as meowmeow #5</description>
     </item>
     
     <item>
       <title>Battle of 1337 2022</title>
-      <link>https://supertsumu.com/writeups/bo1337/</link>
+      <link>https://supertsumu.github.io/writeups/bo1337/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
       
-      <guid>https://supertsumu.com/writeups/bo1337/</guid>
+      <guid>https://supertsumu.github.io/writeups/bo1337/</guid>
       <description>Home
 Battle of 1337 2022 preselection writeups BO1337 Website
 This local CTF was surely an experience for me. I managed to get my first “first blood” since I started participating in CTFs. Huge thanks to the sponsors for funding the event and the staff for creating these awesome challenges.
@@ -35,20 +35,20 @@ Darchrow - 100 [Misc]</description>
     
     <item>
       <title>CyberGrabs_0x03</title>
-      <link>https://supertsumu.com/writeups/cybergrabs0x03/</link>
+      <link>https://supertsumu.github.io/writeups/cybergrabs0x03/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
       
-      <guid>https://supertsumu.com/writeups/cybergrabs0x03/</guid>
+      <guid>https://supertsumu.github.io/writeups/cybergrabs0x03/</guid>
       <description>Home
 CyberGrabs 0x03 writeups Mr. Robot - 200 [Forensics]</description>
     </item>
     
     <item>
       <title>ICTF_2022</title>
-      <link>https://supertsumu.com/writeups/ictf_2022/</link>
+      <link>https://supertsumu.github.io/writeups/ictf_2022/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
       
-      <guid>https://supertsumu.com/writeups/ictf_2022/</guid>
+      <guid>https://supertsumu.github.io/writeups/ictf_2022/</guid>
       <description>Home
 ICTF 2022 Writeups June 11th, 2022.
 The 2022 APU Internal CTF was hosted for the students of Asia Pacific University of Technology and Innovation. Being a student there, I had to take on their challenges! This was actually my first on-site ctf; I got to meet a lot of great people and have a pleasant time with them. Here are of the writeups for 2 of the challenges I solved during my time there.</description>
@@ -56,10 +56,10 @@ The 2022 APU Internal CTF was hosted for the students of Asia Pacific University
     
     <item>
       <title>My_CTF_Writeups</title>
-      <link>https://supertsumu.com/ctfs/</link>
+      <link>https://supertsumu.github.io/ctfs/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
       
-      <guid>https://supertsumu.com/ctfs/</guid>
+      <guid>https://supertsumu.github.io/ctfs/</guid>
       <description>Home
 Writeups This is where I store my ctf writeups. I only do writeups on challenges that I find interesting. Please contact me at SuperTsumu#9404 on Discord if I got anything wrong.
 &amp;mdash;&amp;mdash;2022&amp;mdash;&amp;mdash; CyberGrabs 0x03
@@ -72,10 +72,10 @@ BO1337 2022 preselection</description>
     
     <item>
       <title>picoCTF 2022 writeups</title>
-      <link>https://supertsumu.com/writeups/picoctf_2022/</link>
+      <link>https://supertsumu.github.io/writeups/picoctf_2022/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
       
-      <guid>https://supertsumu.com/writeups/picoctf_2022/</guid>
+      <guid>https://supertsumu.github.io/writeups/picoctf_2022/</guid>
       <description>Home
 picoCTF 2022 writeups picoCTF 2022
 picoCTF is an annual high school ctf hosted by the prestigious Carnegie Mellon University. As usual, they came up with challenging and engaging challenges this year that made us utilize our practical skills. What I love about picoCTF’s challenges is that they make you use skills that you would use on-the-field which makes it a great place to learn practical skills. I alongside Team Excelsior tried our best for #816/7794 globally.</description>
@@ -83,10 +83,10 @@ picoCTF is an annual high school ctf hosted by the prestigious Carnegie Mellon U
     
     <item>
       <title>Vishwa CTF 2022</title>
-      <link>https://supertsumu.com/writeups/vishwactf_2022/</link>
+      <link>https://supertsumu.github.io/writeups/vishwactf_2022/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
       
-      <guid>https://supertsumu.com/writeups/vishwactf_2022/</guid>
+      <guid>https://supertsumu.github.io/writeups/vishwactf_2022/</guid>
       <description>Home
 Vishwa CTF 2022 is an international ctf based in India. I alongside my teammates at Team Excelsior scored 103rd out of the 748 teams that played. I really enjoyed the challenging OSINT and Forensics challenges that makes the player scavenge the edges of the web for flags.
 Vishwa CTF 2022 writeups The Library [OSINT]</description>
@@ -94,10 +94,10 @@ Vishwa CTF 2022 writeups The Library [OSINT]</description>
     
     <item>
       <title>VU_Cyberthon_2022</title>
-      <link>https://supertsumu.com/writeups/vu_cyberthon_2022/</link>
+      <link>https://supertsumu.github.io/writeups/vu_cyberthon_2022/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
       
-      <guid>https://supertsumu.com/writeups/vu_cyberthon_2022/</guid>
+      <guid>https://supertsumu.github.io/writeups/vu_cyberthon_2022/</guid>
       <description>Home
 VU Cyberthon is an international ctf based in Lithuania made by the guys in the Faculty of Informatics of Vytautas Magnus University. I alongside my teammates at Team Excelsior scored 28th place out of the 400+ teams that played against us. It was an interesting experience despite it being very challenging. Thanks to VU Cyberthon for the great time.
 VU Cyberthon 2022 writeups When universes collide [Forensics]</description>
@@ -105,20 +105,20 @@ VU Cyberthon 2022 writeups When universes collide [Forensics]</description>
     
     <item>
       <title>&gt;projects</title>
-      <link>https://supertsumu.com/projectlist/</link>
+      <link>https://supertsumu.github.io/projectlist/</link>
       <pubDate>Wed, 14 Dec 2022 11:45:01 +0800</pubDate>
       
-      <guid>https://supertsumu.com/projectlist/</guid>
+      <guid>https://supertsumu.github.io/projectlist/</guid>
       <description>Home
 My blogs Here I talk about stuff I did that I think are cool. I made a rubber ducky reverse shell for &amp;lt;$10 (Win-10) I made a cloud C2 server and hacked from my smartphone Windows Defender Bypass with Villain and Obfuscation(14/12/2022)</description>
     </item>
     
     <item>
       <title>CloudC2</title>
-      <link>https://supertsumu.com/projects/cloudc2/</link>
+      <link>https://supertsumu.github.io/projects/cloudc2/</link>
       <pubDate>Wed, 14 Dec 2022 11:45:01 +0800</pubDate>
       
-      <guid>https://supertsumu.com/projects/cloudc2/</guid>
+      <guid>https://supertsumu.github.io/projects/cloudc2/</guid>
       <description>Home
 How to make a command-and-control (C2) server on the cloud A command-and-control server (C2) is a server where hackers control their victim’s compromised computers via bind/reverse shells. They can come in the form of a simple netcat instance or fully developed frameworks that feature exploitation scripts such as Meterpreter and PowerSploit.
 In this article, I will be demonstrating how I hosted my C2 server on the cloud and its capabilities using the Linode cloud hosting service.</description>
@@ -126,30 +126,30 @@ In this article, I will be demonstrating how I hosted my C2 server on the cloud 
     
     <item>
       <title>Obfuscation with Villain</title>
-      <link>https://supertsumu.com/projects/villain/</link>
+      <link>https://supertsumu.github.io/projects/villain/</link>
       <pubDate>Wed, 14 Dec 2022 11:45:01 +0800</pubDate>
       
-      <guid>https://supertsumu.com/projects/villain/</guid>
+      <guid>https://supertsumu.github.io/projects/villain/</guid>
       <description>Home
 Windows Defender Bypass with Villain and Obfuscation (14/12/2022) Windows Defender is a signature based antimalware system. This means that it checks programs against a library of previously identified malware to locate malicious software. Because of this, attackers can find ways to bypass Windows Defender by either creating new payloads or encoding/obfuscating existing payloads beyond recognition. Villain Click here to watch it in action Note: I&amp;rsquo;d appreciate it if you&amp;rsquo;re going to try this out, please turn off Windows Defender&amp;rsquo;s automatic sample submission.</description>
     </item>
     
     <item>
       <title>revducky</title>
-      <link>https://supertsumu.com/projects/revducky/</link>
+      <link>https://supertsumu.github.io/projects/revducky/</link>
       <pubDate>Wed, 14 Dec 2022 11:45:01 +0800</pubDate>
       
-      <guid>https://supertsumu.com/projects/revducky/</guid>
+      <guid>https://supertsumu.github.io/projects/revducky/</guid>
       <description>Home
 I made a rubber ducky reverse shell for &lt;$10 (Win-10) USB Rubber Ducky by Hak5 The Hak5 USB Rubber Ducky is a small microcontroller that acts as a keyboard and automatically enters pre-programmed keystrokes. The original Rubber Ducky by Hak5 will cost you 60$. I will be making one for under 10$ with an Arduino pro micro and writing a script to start and conceal a Windows 10 reverse shell.</description>
     </item>
     
     <item>
       <title>C2 Tunneling</title>
-      <link>https://supertsumu.com/projects/tunnel/</link>
+      <link>https://supertsumu.github.io/projects/tunnel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://supertsumu.com/projects/tunnel/</guid>
+      <guid>https://supertsumu.github.io/projects/tunnel/</guid>
       <description>Home
 [OPSEC] Tunneling C2 traffic </description>
     </item>
