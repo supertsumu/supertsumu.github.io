@@ -29,10 +29,10 @@ CyberGrabs 0x03 writeups Mr. Robot - 200 [Forensics]</description>
     
     <item>
       <title>ICTF_2022</title>
-      <link>https://supertsumu.github.io/writeups/ictf_2022/</link>
+      <link>https://supertsumu.github.io/writeups/ictf_2022/challs/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
       
-      <guid>https://supertsumu.github.io/writeups/ictf_2022/</guid>
+      <guid>https://supertsumu.github.io/writeups/ictf_2022/challs/</guid>
       <description>Home
 ICTF 2022 Writeups June 11th, 2022.
 The 2022 APU Internal CTF was hosted for the students of Asia Pacific University of Technology and Innovation. Being a student there, I had to take on their challenges! This was actually my first on-site ctf; I got to meet a lot of great people and have a pleasant time with them. Here are of the writeups for 2 of the challenges I solved during my time there.</description>
@@ -72,35 +72,73 @@ ICTF 2022</description>
     
     <item>
       <title>picoCTF 2022 writeups</title>
-      <link>https://supertsumu.github.io/writeups/picoctf_2022/</link>
+      <link>https://supertsumu.github.io/writeups/picoctf_2022/challs/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
       
-      <guid>https://supertsumu.github.io/writeups/picoctf_2022/</guid>
+      <guid>https://supertsumu.github.io/writeups/picoctf_2022/challs/</guid>
       <description>Home
 picoCTF 2022 writeups picoCTF 2022
 picoCTF is an annual high school ctf hosted by the prestigious Carnegie Mellon University. As usual, they came up with challenging and engaging challenges this year that made us utilize our practical skills. What I love about picoCTF’s challenges is that they make you use skills that you would use on-the-field which makes it a great place to learn practical skills. I alongside Team Excelsior tried our best for #816/7794 globally.</description>
     </item>
     
     <item>
-      <title>Vishwa CTF 2022</title>
-      <link>https://supertsumu.github.io/writeups/vishwactf_2022/</link>
+      <title>The Meetup</title>
+      <link>https://supertsumu.github.io/writeups/ictf_2022/meetup/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
       
-      <guid>https://supertsumu.github.io/writeups/vishwactf_2022/</guid>
+      <guid>https://supertsumu.github.io/writeups/ictf_2022/meetup/</guid>
+      <description>Home
+The Meetup - 150 points - OSINT Description My agent just sent me this image as the location for our next secret meetup. Where exactly is this?
+(This question does not use the BAT22{} flag format. Answer with the exact street or building name this image is taken from.)
+Creator: Nicholas Mun
+The Writeup In this challenge, we are given the image file named The_Meetup.jpg. You can download this file here.</description>
+    </item>
+    
+    <item>
+      <title>Vishwa CTF 2022</title>
+      <link>https://supertsumu.github.io/writeups/vishwactf_2022/challs/</link>
+      <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
+      
+      <guid>https://supertsumu.github.io/writeups/vishwactf_2022/challs/</guid>
       <description>Home
 Vishwa CTF 2022 is an international ctf based in India. I alongside my teammates at Team Excelsior scored 103rd out of the 748 teams that played. I really enjoyed the challenging OSINT and Forensics challenges that makes the player scavenge the edges of the web for flags.
 Vishwa CTF 2022 writeups The Library [OSINT]</description>
     </item>
     
     <item>
-      <title>VU_Cyberthon_2022</title>
-      <link>https://supertsumu.github.io/writeups/vu_cyberthon_2022/</link>
+      <title>Vishwa CTF 2022</title>
+      <link>https://supertsumu.github.io/writeups/vishwactf_2022/library/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
       
-      <guid>https://supertsumu.github.io/writeups/vu_cyberthon_2022/</guid>
+      <guid>https://supertsumu.github.io/writeups/vishwactf_2022/library/</guid>
+      <description>Home
+The Library - 449 points - OSINT, Cryptography Description:
+Send a ‘hello’ to “The Librarian” from the bot list on the Discord server, and he shall guide you further.
+The Library is a 5 level OSINT challenge with hints of ancient/classical cryptography. We are pointed to the discord bot in the Vishwa CTF discord server named “The Librarian”:
+Level 1 After sending a “hello” to the librarian, we get:</description>
+    </item>
+    
+    <item>
+      <title>VU_Cyberthon_2022</title>
+      <link>https://supertsumu.github.io/writeups/vu_cyberthon_2022/challs/</link>
+      <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
+      
+      <guid>https://supertsumu.github.io/writeups/vu_cyberthon_2022/challs/</guid>
       <description>Home
 VU Cyberthon is an international ctf based in Lithuania made by the guys in the Faculty of Informatics of Vytautas Magnus University. I alongside my teammates at Team Excelsior scored 28th place out of the 400+ teams that played against us. It was an interesting experience despite it being very challenging. Thanks to VU Cyberthon for the great time.
 VU Cyberthon 2022 writeups When universes collide [Forensics]</description>
+    </item>
+    
+    <item>
+      <title>When_universes_collide</title>
+      <link>https://supertsumu.github.io/writeups/vu_cyberthon_2022/universe/</link>
+      <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
+      
+      <guid>https://supertsumu.github.io/writeups/vu_cyberthon_2022/universe/</guid>
+      <description>Home
+When universes collide - 50 points - Forensics, Cryptography We are given this file Challenge 1.png.
+Instinctively we would all scan this qr code. We get this string in return:
+otp!áth:,+totp/No~d%20AccÏ%nt:vuctf2&amp;gt;2Ò@b¥s{paâa$iÚeîcÏm?algïrn|hc=SHA1&amp;amp;digiws=6.issuå}=No}d+AcCounz&amp;amp;.e~ißd=30%sek&amp;#34;åt=6ZZKUEJDOVFYC4OIQBU2PLPYBH54VXWB We spent some time thinking what this could mean. But the qr code and its resulting string was actually bait. To actually get the flag we placed the qr code image in stegsolve. After going through a couple of planes we found this:</description>
     </item>
     
     <item>
