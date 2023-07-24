@@ -19,10 +19,10 @@ About Me Greetings. I am Damien Wong/SuperTsumu, a beginner cyber security engin
     
     <item>
       <title>CyberGrabs_0x03</title>
-      <link>https://supertsumu.github.io/writeups/cybergrabs0x03/</link>
+      <link>https://supertsumu.github.io/writeups/cybergrabs0x03/challs/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
       
-      <guid>https://supertsumu.github.io/writeups/cybergrabs0x03/</guid>
+      <guid>https://supertsumu.github.io/writeups/cybergrabs0x03/challs/</guid>
       <description>Home
 CyberGrabs 0x03 writeups Mr. Robot - 200 [Forensics]</description>
     </item>
@@ -36,6 +36,23 @@ CyberGrabs 0x03 writeups Mr. Robot - 200 [Forensics]</description>
       <description>Home
 ICTF 2022 Writeups June 11th, 2022.
 The 2022 APU Internal CTF was hosted for the students of Asia Pacific University of Technology and Innovation. Being a student there, I had to take on their challenges! This was actually my first on-site ctf; I got to meet a lot of great people and have a pleasant time with them. Here are of the writeups for 2 of the challenges I solved during my time there.</description>
+    </item>
+    
+    <item>
+      <title>Mr. Robot</title>
+      <link>https://supertsumu.github.io/writeups/cybergrabs0x03/mrrobot/</link>
+      <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
+      
+      <guid>https://supertsumu.github.io/writeups/cybergrabs0x03/mrrobot/</guid>
+      <description>Home
+Mr. Robot - 200 points - Forensics Description:
+Mr. Robot most famous TV show but least people know about it.
+Flag Format: CYBERGRABS{}
+Author: Tech Wizard
+This forensics challenge comes with the file chall.wav.
+Listening to the file and reading the title, this seems to be a monologue from the American tv show Mr Robot.
+Solution:
+I googled “mr robot wav files” which pointed me to this site which writes about a tool called DeepSound that was used in the tv series.</description>
     </item>
     
     <item>
