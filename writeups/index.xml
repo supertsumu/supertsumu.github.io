@@ -70,6 +70,20 @@ The Writeup In this challenge, we are given the image file named The_Meetup.jpg.
     </item>
     
     <item>
+      <title>Torrent Analyze</title>
+      <link>https://supertsumu.github.io/writeups/picoctf_2022/torrent/</link>
+      <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
+      
+      <guid>https://supertsumu.github.io/writeups/picoctf_2022/torrent/</guid>
+      <description>Home
+Torrent Analyze - 400 points - Forensics Description:
+SOS, someone is torrenting on our network.
+One of your colleagues has been using torrent to download some files on the company’s network. Can you identify the file(s) that were downloaded? The file name will be the flag, like picoCTF{filename}.
+Hint: The file in question ends with .iso
+We are given a pcap file. Open the file on Wireshark to get started!</description>
+    </item>
+    
+    <item>
       <title>Vishwa CTF 2022</title>
       <link>https://supertsumu.github.io/writeups/vishwactf_2022/challs/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
