@@ -4,49 +4,44 @@
     <title>Projects on SuperTsumu</title>
     <link>https://supertsumu.github.io/projects/</link>
     <description>Recent content in Projects on SuperTsumu</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Dec 2022 11:45:01 +0800</lastBuildDate><atom:link href="https://supertsumu.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Nov 2023 11:45:01 +0800</lastBuildDate>
+    <atom:link href="https://supertsumu.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pwnagotchi Build Guide (November 2023)</title>
+      <link>https://supertsumu.github.io/projects/pwnagotchi/</link>
+      <pubDate>Sat, 25 Nov 2023 11:45:01 +0800</pubDate>
+      <guid>https://supertsumu.github.io/projects/pwnagotchi/</guid>
+      <description>Home&#xA;Pwnagotchi Build Guide (November 2023) The Pwnagotchi is an open source hacking mini war driving pet. It is inspired by the classic childer&amp;rsquo;s toy tamagotchi. But instead of feeding it virtual food, it feeds itself with WPA handshakes and PMKIDs!&#xA;Hardware wise, the bare minimum you need to make a pwnagotchi is a Raspberry Pi Zero W, a micro usb cable and a micro sd card. However, you would only be able to run the Pwnagotchi in &amp;ldquo;headless&amp;rdquo; mode in this configuration without a screen.</description>
+    </item>
     <item>
       <title>CloudC2</title>
       <link>https://supertsumu.github.io/projects/cloudc2/</link>
       <pubDate>Wed, 14 Dec 2022 11:45:01 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/projects/cloudc2/</guid>
-      <description>Home
-How to make a command-and-control (C2) server on the cloud A command-and-control server (C2) is a server where hackers control their victim’s compromised computers via bind/reverse shells. They can come in the form of a simple netcat instance or fully developed frameworks that feature exploitation scripts such as Meterpreter and PowerSploit.
-In this article, I will be demonstrating how I hosted my C2 server on the cloud and its capabilities using the Linode cloud hosting service.</description>
+      <description>Home&#xA;How to make a command-and-control (C2) server on the cloud A command-and-control server (C2) is a server where hackers control their victim’s compromised computers via bind/reverse shells. They can come in the form of a simple netcat instance or fully developed frameworks that feature exploitation scripts such as Meterpreter and PowerSploit.&#xA;In this article, I will be demonstrating how I hosted my C2 server on the cloud and its capabilities using the Linode cloud hosting service.</description>
     </item>
-    
     <item>
       <title>Obfuscation with Villain</title>
       <link>https://supertsumu.github.io/projects/villain/</link>
       <pubDate>Wed, 14 Dec 2022 11:45:01 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/projects/villain/</guid>
-      <description>Home
-Windows Defender Bypass with Villain and Obfuscation (14/12/2022) Windows Defender is a signature based antimalware system. This means that it checks programs against a library of previously identified malware to locate malicious software. Because of this, attackers can find ways to bypass Windows Defender by either creating new payloads or encoding/obfuscating existing payloads beyond recognition. Villain Click here to watch it in action Note: I&amp;rsquo;d appreciate it if you&amp;rsquo;re going to try this out, please turn off Windows Defender&amp;rsquo;s automatic sample submission.</description>
+      <description>Home&#xA;Windows Defender Bypass with Villain and Obfuscation (14/12/2022) Windows Defender is a signature based antimalware system. This means that it checks programs against a library of previously identified malware to locate malicious software. Because of this, attackers can find ways to bypass Windows Defender by either creating new payloads or encoding/obfuscating existing payloads beyond recognition. Villain Click here to watch it in action Note: I&amp;rsquo;d appreciate it if you&amp;rsquo;re going to try this out, please turn off Windows Defender&amp;rsquo;s automatic sample submission.</description>
     </item>
-    
     <item>
       <title>revducky</title>
       <link>https://supertsumu.github.io/projects/revducky/</link>
       <pubDate>Wed, 14 Dec 2022 11:45:01 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/projects/revducky/</guid>
-      <description>Home
-I made a rubber ducky reverse shell for &lt;$10 (Win-10) USB Rubber Ducky by Hak5 The Hak5 USB Rubber Ducky is a small microcontroller that acts as a keyboard and automatically enters pre-programmed keystrokes. The original Rubber Ducky by Hak5 will cost you 60$. I will be making one for under 10$ with an Arduino pro micro and writing a script to start and conceal a Windows 10 reverse shell.</description>
+      <description>Home&#xA;I made a rubber ducky reverse shell for &lt;$10 (Win-10) USB Rubber Ducky by Hak5 The Hak5 USB Rubber Ducky is a small microcontroller that acts as a keyboard and automatically enters pre-programmed keystrokes. The original Rubber Ducky by Hak5 will cost you 60$. I will be making one for under 10$ with an Arduino pro micro and writing a script to start and conceal a Windows 10 reverse shell.</description>
     </item>
-    
     <item>
       <title>C2 Tunneling</title>
       <link>https://supertsumu.github.io/projects/tunnel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://supertsumu.github.io/projects/tunnel/</guid>
-      <description>Home
-[OPSEC] Tunneling C2 traffic </description>
+      <description>Home&#xA;[OPSEC] Tunneling C2 traffic </description>
     </item>
-    
   </channel>
 </rss>

@@ -2,10 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://supertsumu.github.io/projects/</loc>
+    <lastmod>2023-11-25T11:45:01+08:00</lastmod>
+  </url><url>
+    <loc>https://supertsumu.github.io/projects/pwnagotchi/</loc>
+    <lastmod>2023-11-25T11:45:01+08:00</lastmod>
+  </url><url>
+    <loc>https://supertsumu.github.io/</loc>
+    <lastmod>2023-11-25T11:45:01+08:00</lastmod>
+  </url><url>
     <loc>https://supertsumu.github.io/about/</loc>
     <lastmod>2022-12-28T18:07:47+08:00</lastmod>
   </url><url>
     <loc>https://supertsumu.github.io/writeups/cybergrabs0x03/challs/</loc>
+    <lastmod>2022-12-28T18:07:47+08:00</lastmod>
+  </url><url>
+    <loc>https://supertsumu.github.io/writeups/eqctf_2025/challs/</loc>
     <lastmod>2022-12-28T18:07:47+08:00</lastmod>
   </url><url>
     <loc>https://supertsumu.github.io/writeups/ictf_2022/challs/</loc>
@@ -20,7 +32,7 @@
     <loc>https://supertsumu.github.io/writeups/picoctf_2022/challs/</loc>
     <lastmod>2022-12-28T18:07:47+08:00</lastmod>
   </url><url>
-    <loc>https://supertsumu.github.io/</loc>
+    <loc>https://supertsumu.github.io/writeups/eqctf_2025/secretaccess/</loc>
     <lastmod>2022-12-28T18:07:47+08:00</lastmod>
   </url><url>
     <loc>https://supertsumu.github.io/writeups/ictf_2022/meetup/</loc>
@@ -51,9 +63,6 @@
     <lastmod>2022-12-14T11:45:01+08:00</lastmod>
   </url><url>
     <loc>https://supertsumu.github.io/projects/villain/</loc>
-    <lastmod>2022-12-14T11:45:01+08:00</lastmod>
-  </url><url>
-    <loc>https://supertsumu.github.io/projects/</loc>
     <lastmod>2022-12-14T11:45:01+08:00</lastmod>
   </url><url>
     <loc>https://supertsumu.github.io/projects/revducky/</loc>

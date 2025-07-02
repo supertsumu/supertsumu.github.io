@@ -4,216 +4,156 @@
     <title>SuperTsumu</title>
     <link>https://supertsumu.github.io/</link>
     <description>Recent content on SuperTsumu</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Dec 2022 18:07:47 +0800</lastBuildDate><atom:link href="https://supertsumu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Nov 2023 11:45:01 +0800</lastBuildDate>
+    <atom:link href="https://supertsumu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pwnagotchi Build Guide (November 2023)</title>
+      <link>https://supertsumu.github.io/projects/pwnagotchi/</link>
+      <pubDate>Sat, 25 Nov 2023 11:45:01 +0800</pubDate>
+      <guid>https://supertsumu.github.io/projects/pwnagotchi/</guid>
+      <description>Home&#xA;Pwnagotchi Build Guide (November 2023) The Pwnagotchi is an open source hacking mini war driving pet. It is inspired by the classic childer&amp;rsquo;s toy tamagotchi. But instead of feeding it virtual food, it feeds itself with WPA handshakes and PMKIDs!&#xA;Hardware wise, the bare minimum you need to make a pwnagotchi is a Raspberry Pi Zero W, a micro usb cable and a micro sd card. However, you would only be able to run the Pwnagotchi in &amp;ldquo;headless&amp;rdquo; mode in this configuration without a screen.</description>
+    </item>
     <item>
       <title>&gt;whoami</title>
       <link>https://supertsumu.github.io/about/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/about/</guid>
-      <description>Home
-About Me Greetings. I am Damien Wong/SuperTsumu, a beginner cyber security engineer from Malaysia &amp;amp; CTF player for Team Excelsior. I am currently studying for a diploma in ICT specializing in software engineering at Asia Pacific University of Technology and Innovation. To contact me personally, my Discord ID is SuperTsumu#9404. Please do not hesitate to send me a message about literally anything. Qualifications: IGCSE 2020 @ Sri KDU International School Diploma in ICT Specializing in Software Engineering @ Asia Pacific University of Technology &amp; Innovation CTF History APU ICTF 2021 as meowmeow #5</description>
+      <description>Home&#xA;Greetings. I am Damien Wong/SuperTsumu, a cyber security researcher from Malaysia and a CTF Player for various teams. I am currently studying for a degree in computer science at The University of Queensland. I also do bartending on the side. Contact me on discord at SuperTsumu#9404 or email me at supertsumu@gmail.com. Security Resume Hospo Resume&#xA;Qualifications: Bachelors with Honours in Computer Science Specializing in Cyber Security @ The University of Queensland Diploma in ICT Specializing in Software Engineering @ Asia Pacific University of Technology &amp; Innovation IGCSE @ Sri KDU International School CTF History CrikeyCon X CTF as AWAVAUATUSH #3/200+</description>
     </item>
-    
     <item>
       <title>CyberGrabs_0x03</title>
       <link>https://supertsumu.github.io/writeups/cybergrabs0x03/challs/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/writeups/cybergrabs0x03/challs/</guid>
-      <description>Home
-CyberGrabs 0x03 writeups Mr. Robot - 200 [Forensics]</description>
+      <description>Home&#xA;CyberGrabs 0x03 writeups Mr. Robot - 200 [Forensics]</description>
     </item>
-    
+    <item>
+      <title>EQCTF_2025</title>
+      <link>https://supertsumu.github.io/writeups/eqctf_2025/challs/</link>
+      <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
+      <guid>https://supertsumu.github.io/writeups/eqctf_2025/challs/</guid>
+      <description>Home&#xA;ICTF 2022 Writeups March 19th, 2025.&#xA;Equilibrium CTF is a casual CTF made by some of the best CTF players in Malaysia. They are also my friends! This CTF was made purely for fun and in the hopes that people learn something new along the way; I know I did.&#xA;Secret Access - 200 [Web]</description>
+    </item>
     <item>
       <title>ICTF_2022</title>
       <link>https://supertsumu.github.io/writeups/ictf_2022/challs/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/writeups/ictf_2022/challs/</guid>
-      <description>Home
-ICTF 2022 Writeups June 11th, 2022.
-The 2022 APU Internal CTF was hosted for the students of Asia Pacific University of Technology and Innovation. Being a student there, I had to take on their challenges! This was actually my first on-site ctf; I got to meet a lot of great people and have a pleasant time with them. Here are of the writeups for 2 of the challenges I solved during my time there.</description>
+      <description>Home&#xA;ICTF 2022 Writeups June 11th, 2022.&#xA;The 2022 APU Internal CTF was hosted for the students of Asia Pacific University of Technology and Innovation. Being a student there, I had to take on their challenges! This was actually my first on-site ctf; I got to meet a lot of great people and have a pleasant time with them. Here are of the writeups for 2 of the challenges I solved during my time there.</description>
     </item>
-    
     <item>
       <title>Mr. Robot</title>
       <link>https://supertsumu.github.io/writeups/cybergrabs0x03/mrrobot/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/writeups/cybergrabs0x03/mrrobot/</guid>
-      <description>Home
-Mr. Robot - 200 points - Forensics Description:
-Mr. Robot most famous TV show but least people know about it.
-Flag Format: CYBERGRABS{}
-Author: Tech Wizard
-This forensics challenge comes with the file chall.wav.
-Listening to the file and reading the title, this seems to be a monologue from the American tv show Mr Robot.
-Solution:
-I googled “mr robot wav files” which pointed me to this site which writes about a tool called DeepSound that was used in the tv series.</description>
+      <description>Home&#xA;Mr. Robot - 200 points - Forensics Description:&#xA;Mr. Robot most famous TV show but least people know about it.&#xA;Flag Format: CYBERGRABS{}&#xA;Author: Tech Wizard&#xA;This forensics challenge comes with the file chall.wav.&#xA;Listening to the file and reading the title, this seems to be a monologue from the American tv show Mr Robot.&#xA;Solution:&#xA;I googled “mr robot wav files” which pointed me to this site which writes about a tool called DeepSound that was used in the tv series.</description>
     </item>
-    
     <item>
       <title>My_CTF_Writeups</title>
       <link>https://supertsumu.github.io/ctfs/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/ctfs/</guid>
-      <description>Home
-Writeups This is where I store my ctf writeups. I only do writeups on challenges that I find interesting. Please contact me at SuperTsumu#9404 on Discord if I got anything wrong.
-&amp;mdash;&amp;mdash;2022&amp;mdash;&amp;mdash; CyberGrabs 0x03
-VU Cyberthon 2022
-Vishwa CTF 2022
-picoCTF 2022
-ICTF 2022</description>
+      <description>Home&#xA;Writeups This is where I store my ctf writeups. I only do writeups on challenges that I find interesting. Please contact me at SuperTsumu#9404 on Discord if I got anything wrong.&#xA;&amp;mdash;&amp;mdash;2022&amp;mdash;&amp;mdash; CyberGrabs 0x03&#xA;VU Cyberthon 2022&#xA;Vishwa CTF 2022&#xA;picoCTF 2022&#xA;ICTF 2022&#xA;EQCTF 2025</description>
     </item>
-    
     <item>
       <title>picoCTF 2022 writeups</title>
       <link>https://supertsumu.github.io/writeups/picoctf_2022/challs/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/writeups/picoctf_2022/challs/</guid>
-      <description>Home
-picoCTF 2022 writeups picoCTF 2022
-picoCTF is an annual high school ctf hosted by the prestigious Carnegie Mellon University. As usual, they came up with challenging and engaging challenges this year that made us utilize our practical skills. What I love about picoCTF’s challenges is that they make you use skills that you would use on-the-field which makes it a great place to learn practical skills. I alongside Team Excelsior tried our best for #816/7794 globally.</description>
+      <description>Home&#xA;picoCTF 2022 writeups picoCTF 2022&#xA;picoCTF is an annual high school ctf hosted by the prestigious Carnegie Mellon University. As usual, they came up with challenging and engaging challenges this year that made us utilize our practical skills. What I love about picoCTF’s challenges is that they make you use skills that you would use on-the-field which makes it a great place to learn practical skills. I alongside Team Excelsior tried our best for #816/7794 globally.</description>
     </item>
-    
+    <item>
+      <title>Secret Access</title>
+      <link>https://supertsumu.github.io/writeups/eqctf_2025/secretaccess/</link>
+      <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
+      <guid>https://supertsumu.github.io/writeups/eqctf_2025/secretaccess/</guid>
+      <description>Home&#xA;Secret Access - 200 points - Web Description:&#xA;You want the access? Give me the secret code!&#xA;Flag Format: picoCTF{}&#xA;Author: Shroomish&#xA;This web challenge comes with a zip file that contains the source code of the challenge. The goal is to bypass the security checks mentioned in the source code.&#xA;&amp;lt;?php if (isset($_POST[&amp;#39;egg&amp;#39;])) { $secretHash = &amp;#39;00e39786989574093743872279278460&amp;#39;; $eggWorthyStatus = false; // First, you need to show me that you are worthy.</description>
+    </item>
     <item>
       <title>The Meetup</title>
       <link>https://supertsumu.github.io/writeups/ictf_2022/meetup/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/writeups/ictf_2022/meetup/</guid>
-      <description>Home
-The Meetup - 150 points - OSINT Description My agent just sent me this image as the location for our next secret meetup. Where exactly is this?
-(This question does not use the BAT22{} flag format. Answer with the exact street or building name this image is taken from.)
-Creator: Nicholas Mun
-The Writeup In this challenge, we are given the image file named The_Meetup.jpg. You can download this file here.</description>
+      <description>Home&#xA;The Meetup - 150 points - OSINT Description My agent just sent me this image as the location for our next secret meetup. Where exactly is this?&#xA;(This question does not use the BAT22{} flag format. Answer with the exact street or building name this image is taken from.)&#xA;Creator: Nicholas Mun&#xA;The Writeup In this challenge, we are given the image file named The_Meetup.jpg. You can download this file here.</description>
     </item>
-    
     <item>
       <title>Torrent Analyze</title>
       <link>https://supertsumu.github.io/writeups/picoctf_2022/torrent/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/writeups/picoctf_2022/torrent/</guid>
-      <description>Home
-Torrent Analyze - 400 points - Forensics Description:
-SOS, someone is torrenting on our network.
-One of your colleagues has been using torrent to download some files on the company’s network. Can you identify the file(s) that were downloaded? The file name will be the flag, like picoCTF{filename}.
-Hint: The file in question ends with .iso
-We are given a pcap file. Open the file on Wireshark to get started!</description>
+      <description>Home&#xA;Torrent Analyze - 400 points - Forensics Description:&#xA;SOS, someone is torrenting on our network.&#xA;One of your colleagues has been using torrent to download some files on the company’s network. Can you identify the file(s) that were downloaded? The file name will be the flag, like picoCTF{filename}.&#xA;Hint: The file in question ends with .iso&#xA;We are given a pcap file. Open the file on Wireshark to get started!</description>
     </item>
-    
     <item>
       <title>Vishwa CTF 2022</title>
       <link>https://supertsumu.github.io/writeups/vishwactf_2022/challs/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/writeups/vishwactf_2022/challs/</guid>
-      <description>Home
-Vishwa CTF 2022 is an international ctf based in India. I alongside my teammates at Team Excelsior scored 103rd out of the 748 teams that played. I really enjoyed the challenging OSINT and Forensics challenges that makes the player scavenge the edges of the web for flags.
-Vishwa CTF 2022 writeups The Library [OSINT]</description>
+      <description>Home&#xA;Vishwa CTF 2022 is an international ctf based in India. I alongside my teammates at Team Excelsior scored 103rd out of the 748 teams that played. I really enjoyed the challenging OSINT and Forensics challenges that makes the player scavenge the edges of the web for flags.&#xA;Vishwa CTF 2022 writeups The Library [OSINT]</description>
     </item>
-    
     <item>
       <title>Vishwa CTF 2022</title>
       <link>https://supertsumu.github.io/writeups/vishwactf_2022/library/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/writeups/vishwactf_2022/library/</guid>
-      <description>Home
-The Library - 449 points - OSINT, Cryptography Description:
-Send a ‘hello’ to “The Librarian” from the bot list on the Discord server, and he shall guide you further.
-The Library is a 5 level OSINT challenge with hints of ancient/classical cryptography. We are pointed to the discord bot in the Vishwa CTF discord server named “The Librarian”:
-Level 1 After sending a “hello” to the librarian, we get:</description>
+      <description>Home&#xA;The Library - 449 points - OSINT, Cryptography Description:&#xA;Send a ‘hello’ to “The Librarian” from the bot list on the Discord server, and he shall guide you further.&#xA;The Library is a 5 level OSINT challenge with hints of ancient/classical cryptography. We are pointed to the discord bot in the Vishwa CTF discord server named “The Librarian”:&#xA;Level 1 After sending a “hello” to the librarian, we get:</description>
     </item>
-    
     <item>
       <title>VU_Cyberthon_2022</title>
       <link>https://supertsumu.github.io/writeups/vu_cyberthon_2022/challs/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/writeups/vu_cyberthon_2022/challs/</guid>
-      <description>Home
-VU Cyberthon is an international ctf based in Lithuania made by the guys in the Faculty of Informatics of Vytautas Magnus University. I alongside my teammates at Team Excelsior scored 28th place out of the 400+ teams that played against us. It was an interesting experience despite it being very challenging. Thanks to VU Cyberthon for the great time.
-VU Cyberthon 2022 writeups When universes collide [Forensics]</description>
+      <description>Home&#xA;VU Cyberthon is an international ctf based in Lithuania made by the guys in the Faculty of Informatics of Vytautas Magnus University. I alongside my teammates at Team Excelsior scored 28th place out of the 400+ teams that played against us. It was an interesting experience despite it being very challenging. Thanks to VU Cyberthon for the great time.&#xA;VU Cyberthon 2022 writeups When universes collide [Forensics]</description>
     </item>
-    
     <item>
       <title>When_universes_collide</title>
       <link>https://supertsumu.github.io/writeups/vu_cyberthon_2022/universe/</link>
       <pubDate>Wed, 28 Dec 2022 18:07:47 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/writeups/vu_cyberthon_2022/universe/</guid>
-      <description>Home
-When universes collide - 50 points - Forensics, Cryptography We are given this file Challenge 1.png.
-Instinctively we would all scan this qr code. We get this string in return:
-otp!áth:,+totp/No~d%20AccÏ%nt:vuctf2&amp;gt;2Ò@b¥s{paâa$iÚeîcÏm?algïrn|hc=SHA1&amp;amp;digiws=6.issuå}=No}d+AcCounz&amp;amp;.e~ißd=30%sek&amp;#34;åt=6ZZKUEJDOVFYC4OIQBU2PLPYBH54VXWB We spent some time thinking what this could mean. But the qr code and its resulting string was actually bait. To actually get the flag we placed the qr code image in stegsolve. After going through a couple of planes we found this:</description>
+      <description>Home&#xA;When universes collide - 50 points - Forensics, Cryptography We are given this file Challenge 1.png.&#xA;Instinctively we would all scan this qr code. We get this string in return:&#xA;otp!áth:,+totp/No~d%20AccÏ%nt:vuctf2&amp;gt;2Ò@b¥s{paâa$iÚeîcÏm?algïrn|hc=SHA1&amp;amp;digiws=6.issuå}=No}d+AcCounz&amp;amp;.e~ißd=30%sek&amp;#34;åt=6ZZKUEJDOVFYC4OIQBU2PLPYBH54VXWB We spent some time thinking what this could mean. But the qr code and its resulting string was actually bait. To actually get the flag we placed the qr code image in stegsolve. After going through a couple of planes we found this:</description>
     </item>
-    
     <item>
       <title>&gt;projects</title>
       <link>https://supertsumu.github.io/projectlist/</link>
       <pubDate>Wed, 14 Dec 2022 11:45:01 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/projectlist/</guid>
-      <description>Home
-My blogs Here I talk about stuff I did that I think are cool. I made a rubber ducky reverse shell for &amp;lt;$10 (Win-10) I made a cloud C2 server and hacked from my smartphone Windows Defender Bypass with Villain and Obfuscation(14/12/2022)</description>
+      <description>Home&#xA;My blogs Here I talk about stuff I did that I think are cool. I made a rubber ducky reverse shell for &amp;lt;$10 (Win-10) I made a cloud C2 server and hacked from my smartphone Windows Defender Bypass with Villain and Obfuscation(14/12/2022)</description>
     </item>
-    
     <item>
       <title>CloudC2</title>
       <link>https://supertsumu.github.io/projects/cloudc2/</link>
       <pubDate>Wed, 14 Dec 2022 11:45:01 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/projects/cloudc2/</guid>
-      <description>Home
-How to make a command-and-control (C2) server on the cloud A command-and-control server (C2) is a server where hackers control their victim’s compromised computers via bind/reverse shells. They can come in the form of a simple netcat instance or fully developed frameworks that feature exploitation scripts such as Meterpreter and PowerSploit.
-In this article, I will be demonstrating how I hosted my C2 server on the cloud and its capabilities using the Linode cloud hosting service.</description>
+      <description>Home&#xA;How to make a command-and-control (C2) server on the cloud A command-and-control server (C2) is a server where hackers control their victim’s compromised computers via bind/reverse shells. They can come in the form of a simple netcat instance or fully developed frameworks that feature exploitation scripts such as Meterpreter and PowerSploit.&#xA;In this article, I will be demonstrating how I hosted my C2 server on the cloud and its capabilities using the Linode cloud hosting service.</description>
     </item>
-    
     <item>
       <title>Obfuscation with Villain</title>
       <link>https://supertsumu.github.io/projects/villain/</link>
       <pubDate>Wed, 14 Dec 2022 11:45:01 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/projects/villain/</guid>
-      <description>Home
-Windows Defender Bypass with Villain and Obfuscation (14/12/2022) Windows Defender is a signature based antimalware system. This means that it checks programs against a library of previously identified malware to locate malicious software. Because of this, attackers can find ways to bypass Windows Defender by either creating new payloads or encoding/obfuscating existing payloads beyond recognition. Villain Click here to watch it in action Note: I&amp;rsquo;d appreciate it if you&amp;rsquo;re going to try this out, please turn off Windows Defender&amp;rsquo;s automatic sample submission.</description>
+      <description>Home&#xA;Windows Defender Bypass with Villain and Obfuscation (14/12/2022) Windows Defender is a signature based antimalware system. This means that it checks programs against a library of previously identified malware to locate malicious software. Because of this, attackers can find ways to bypass Windows Defender by either creating new payloads or encoding/obfuscating existing payloads beyond recognition. Villain Click here to watch it in action Note: I&amp;rsquo;d appreciate it if you&amp;rsquo;re going to try this out, please turn off Windows Defender&amp;rsquo;s automatic sample submission.</description>
     </item>
-    
     <item>
       <title>revducky</title>
       <link>https://supertsumu.github.io/projects/revducky/</link>
       <pubDate>Wed, 14 Dec 2022 11:45:01 +0800</pubDate>
-      
       <guid>https://supertsumu.github.io/projects/revducky/</guid>
-      <description>Home
-I made a rubber ducky reverse shell for &lt;$10 (Win-10) USB Rubber Ducky by Hak5 The Hak5 USB Rubber Ducky is a small microcontroller that acts as a keyboard and automatically enters pre-programmed keystrokes. The original Rubber Ducky by Hak5 will cost you 60$. I will be making one for under 10$ with an Arduino pro micro and writing a script to start and conceal a Windows 10 reverse shell.</description>
+      <description>Home&#xA;I made a rubber ducky reverse shell for &lt;$10 (Win-10) USB Rubber Ducky by Hak5 The Hak5 USB Rubber Ducky is a small microcontroller that acts as a keyboard and automatically enters pre-programmed keystrokes. The original Rubber Ducky by Hak5 will cost you 60$. I will be making one for under 10$ with an Arduino pro micro and writing a script to start and conceal a Windows 10 reverse shell.</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://supertsumu.github.io/writeups/cydes2023/challs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://supertsumu.github.io/writeups/cydes2023/challs/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>C2 Tunneling</title>
       <link>https://supertsumu.github.io/projects/tunnel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://supertsumu.github.io/projects/tunnel/</guid>
-      <description>Home
-[OPSEC] Tunneling C2 traffic </description>
+      <description>Home&#xA;[OPSEC] Tunneling C2 traffic </description>
     </item>
-    
   </channel>
 </rss>
